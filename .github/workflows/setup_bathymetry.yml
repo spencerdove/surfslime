@@ -1,0 +1,52 @@
+name: Setup Bathymetry (One-Time)
+
+on:
+  workflow_dispatch:
+    inputs:
+      spots:
+        description: "Space-separated spot IDs (leave blank for all)"
+        required: false
+        default: ""
+      pad:
+        description: "Bounding box padding in degrees"
+        required: false
+        default: "0.3"
+
+jobs:
+  setup:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install requests numpy matplotlib shapely rasterio
+
+      - name: Generate bathymetry
+        run: |
+          ARGS=""
+          if [ -n "${{ github.event.inputs.spots }}" ]; then
+            ARGS="--spots ${{ github.event.inputs.spots }}"
+          fi
+          python scripts/setup_bathymetry.py $ARGS --pad ${{ github.event.inputs.pad || '0.3' }}
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/data/bathymetry/
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "feat: add bathymetry contour data"
+            git push
+          fi

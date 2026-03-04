@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Surfslime — San Diego &amp; OC Surf Forecast</title>
+  <meta name="description" content="Real-time surf conditions and 7-day forecast for San Diego and Orange County surf spots." />
+
+  <!-- Leaflet -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header id="topbar">
+    <div id="brand">
+      <span id="brand-icon">🌊</span>
+      <span id="brand-name">surfslime</span>
+    </div>
+    <div id="filter-bar">
+      <button class="filter-btn active" data-county="all">All</button>
+      <button class="filter-btn" data-county="San Diego">San Diego</button>
+      <button class="filter-btn" data-county="Orange County">OC</button>
+    </div>
+    <div id="last-updated"></div>
+  </header>
+
+  <main id="app">
+    <div id="map-container">
+      <div id="map"></div>
+      <div id="map-legend">
+        <div class="legend-item"><span class="legend-dot epic"></span>Epic</div>
+        <div class="legend-item"><span class="legend-dot good"></span>Good</div>
+        <div class="legend-item"><span class="legend-dot fair"></span>Fair</div>
+        <div class="legend-item"><span class="legend-dot poor"></span>Poor</div>
+        <div class="legend-item"><span class="legend-dot flat"></span>Flat</div>
+      </div>
+      <button id="depth-toggle" title="Toggle depth contours">Show Depth</button>
+    </div>
+
+    <aside id="sidebar">
+      <div id="sidebar-empty">
+        <p>Select a spot on the map</p>
+      </div>
+      <div id="sidebar-content" class="hidden">
+        <div id="spot-header">
+          <div id="spot-title">
+            <h2 id="spot-name"></h2>
+            <span id="spot-meta"></span>
+          </div>
+          <div id="spot-rating-badge">
+            <span id="rating-label"></span>
+            <span id="rating-score"></span>
+          </div>
+        </div>
+
+        <section id="current-conditions">
+          <h3>Current</h3>
+          <div id="conditions-grid">
+            <div class="cond-cell">
+              <div class="cond-label">Wave Height</div>
+              <div class="cond-value" id="cond-wave-height">—</div>
+            </div>
+            <div class="cond-cell">
+              <div class="cond-label">Swell Period</div>
+              <div class="cond-value" id="cond-swell-period">—</div>
+            </div>
+            <div class="cond-cell">
+              <div class="cond-label">Swell Direction</div>
+              <div class="cond-value" id="cond-swell-dir">—</div>
+            </div>
+            <div class="cond-cell">
+              <div class="cond-label">Wind</div>
+              <div class="cond-value" id="cond-wind">—</div>
+              <div class="cond-sublabel" id="cond-wind-label">—</div>
+            </div>
+          </div>
+        </section>
+
+        <section id="tide-section">
+          <h3>Tides <span id="tide-height-display"></span></h3>
+          <div id="tide-chart-container">
+            <canvas id="tide-chart"></canvas>
+          </div>
+        </section>
+
+        <section id="forecast-section">
+          <h3>7-Day Forecast</h3>
+          <div id="forecast-chart-container">
+            <canvas id="forecast-chart"></canvas>
+          </div>
+        </section>
+
+        <section id="spot-details-section">
+          <h3>Spot Info</h3>
+          <div id="spot-details-grid">
+            <div class="detail-row"><span class="detail-label">Break Type</span><span class="detail-value" id="detail-break-type">—</span></div>
+            <div class="detail-row"><span class="detail-label">Best Swell</span><span class="detail-value" id="detail-best-swell">—</span></div>
+            <div class="detail-row"><span class="detail-label">Best Height</span><span class="detail-value" id="detail-best-height">—</span></div>
+            <div class="detail-row"><span class="detail-label">Best Period</span><span class="detail-value" id="detail-best-period">—</span></div>
+            <div class="detail-row"><span class="detail-label">Best Wind</span><span class="detail-value" id="detail-best-wind">—</span></div>
+            <div class="detail-row"><span class="detail-label">Best Tide</span><span class="detail-value" id="detail-best-tide">—</span></div>
+          </div>
+        </section>
+
+        <div id="buoy-attribution"></div>
+      </div>
+    </aside>
+  </main>
+
+  <script src="assets/main.js"></script>
+</body>
+</html>

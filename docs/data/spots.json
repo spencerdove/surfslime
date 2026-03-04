@@ -1,0 +1,249 @@
+[
+  {
+    "id": "trestles",
+    "name": "Trestles (Lowers)",
+    "lat": 33.3719,
+    "lon": -117.5892,
+    "county": "Orange County",
+    "break_type": "point_break",
+    "primary_buoy": "cdip-045",
+    "tide_station": "9410230",
+    "best": {
+      "swell_dir_deg": 285,
+      "swell_dir_tolerance": 45,
+      "height_min_ft": 3,
+      "height_max_ft": 10,
+      "period_min_s": 12,
+      "tide": "low-medium",
+      "wind": "NE"
+    }
+  },
+  {
+    "id": "salt_creek",
+    "name": "Salt Creek",
+    "lat": 33.5065,
+    "lon": -117.7290,
+    "county": "Orange County",
+    "break_type": "reef_break",
+    "primary_buoy": "ndbc-46086",
+    "tide_station": "9410230",
+    "best": {
+      "swell_dir_deg": 280,
+      "swell_dir_tolerance": 40,
+      "height_min_ft": 3,
+      "height_max_ft": 8,
+      "period_min_s": 10,
+      "tide": "medium",
+      "wind": "NE"
+    }
+  },
+  {
+    "id": "huntington_pier",
+    "name": "Huntington Beach Pier",
+    "lat": 33.6523,
+    "lon": -117.9989,
+    "county": "Orange County",
+    "break_type": "beach_break",
+    "primary_buoy": "ndbc-46086",
+    "tide_station": "9410230",
+    "best": {
+      "swell_dir_deg": 270,
+      "swell_dir_tolerance": 60,
+      "height_min_ft": 2,
+      "height_max_ft": 8,
+      "period_min_s": 8,
+      "tide": "low-medium",
+      "wind": "NE"
+    }
+  },
+  {
+    "id": "the_wedge",
+    "name": "The Wedge",
+    "lat": 33.5930,
+    "lon": -117.8817,
+    "county": "Orange County",
+    "break_type": "shorebreak",
+    "primary_buoy": "ndbc-46086",
+    "tide_station": "9410230",
+    "best": {
+      "swell_dir_deg": 170,
+      "swell_dir_tolerance": 30,
+      "height_min_ft": 4,
+      "height_max_ft": 15,
+      "period_min_s": 14,
+      "tide": "high",
+      "wind": "W"
+    }
+  },
+  {
+    "id": "doheny",
+    "name": "Doheny State Beach",
+    "lat": 33.4613,
+    "lon": -117.6700,
+    "county": "Orange County",
+    "break_type": "beach_break",
+    "primary_buoy": "cdip-045",
+    "tide_station": "9410230",
+    "best": {
+      "swell_dir_deg": 260,
+      "swell_dir_tolerance": 50,
+      "height_min_ft": 2,
+      "height_max_ft": 6,
+      "period_min_s": 8,
+      "tide": "low",
+      "wind": "N"
+    }
+  },
+  {
+    "id": "blacks",
+    "name": "Blacks Beach",
+    "lat": 32.8857,
+    "lon": -117.2570,
+    "county": "San Diego",
+    "break_type": "reef_break",
+    "primary_buoy": "cdip-071",
+    "tide_station": "9410660",
+    "best": {
+      "swell_dir_deg": 300,
+      "swell_dir_tolerance": 40,
+      "height_min_ft": 4,
+      "height_max_ft": 12,
+      "period_min_s": 12,
+      "tide": "low-medium",
+      "wind": "NE"
+    }
+  },
+  {
+    "id": "windansea",
+    "name": "Windansea",
+    "lat": 32.8333,
+    "lon": -117.2790,
+    "county": "San Diego",
+    "break_type": "reef_break",
+    "primary_buoy": "cdip-071",
+    "tide_station": "9410660",
+    "best": {
+      "swell_dir_deg": 300,
+      "swell_dir_tolerance": 40,
+      "height_min_ft": 3,
+      "height_max_ft": 10,
+      "period_min_s": 10,
+      "tide": "low",
+      "wind": "NE"
+    }
+  },
+  {
+    "id": "ocean_beach",
+    "name": "Ocean Beach Pier",
+    "lat": 32.7479,
+    "lon": -117.2569,
+    "county": "San Diego",
+    "break_type": "beach_break",
+    "primary_buoy": "cdip-201",
+    "tide_station": "9410660",
+    "best": {
+      "swell_dir_deg": 270,
+      "swell_dir_tolerance": 60,
+      "height_min_ft": 2,
+      "height_max_ft": 7,
+      "period_min_s": 8,
+      "tide": "low-medium",
+      "wind": "NE"
+    }
+  },
+  {
+    "id": "pacific_beach",
+    "name": "Pacific Beach",
+    "lat": 32.7981,
+    "lon": -117.2534,
+    "county": "San Diego",
+    "break_type": "beach_break",
+    "primary_buoy": "cdip-071",
+    "tide_station": "9410660",
+    "best": {
+      "swell_dir_deg": 270,
+      "swell_dir_tolerance": 60,
+      "height_min_ft": 2,
+      "height_max_ft": 7,
+      "period_min_s": 8,
+      "tide": "low-medium",
+      "wind": "NE"
+    }
+  },
+  {
+    "id": "sunset_cliffs",
+    "name": "Sunset Cliffs",
+    "lat": 32.7174,
+    "lon": -117.2540,
+    "county": "San Diego",
+    "break_type": "reef_break",
+    "primary_buoy": "cdip-201",
+    "tide_station": "9410660",
+    "best": {
+      "swell_dir_deg": 300,
+      "swell_dir_tolerance": 45,
+      "height_min_ft": 3,
+      "height_max_ft": 10,
+      "period_min_s": 12,
+      "tide": "medium",
+      "wind": "NE"
+    }
+  },
+  {
+    "id": "swamis",
+    "name": "Swami's",
+    "lat": 33.0370,
+    "lon": -117.2940,
+    "county": "San Diego",
+    "break_type": "reef_break",
+    "primary_buoy": "cdip-045",
+    "tide_station": "9410660",
+    "best": {
+      "swell_dir_deg": 295,
+      "swell_dir_tolerance": 40,
+      "height_min_ft": 3,
+      "height_max_ft": 10,
+      "period_min_s": 12,
+      "tide": "low-medium",
+      "wind": "NE"
+    }
+  },
+  {
+    "id": "cardiff_reef",
+    "name": "Cardiff Reef",
+    "lat": 33.0235,
+    "lon": -117.2824,
+    "county": "San Diego",
+    "break_type": "reef_break",
+    "primary_buoy": "cdip-045",
+    "tide_station": "9410660",
+    "best": {
+      "swell_dir_deg": 280,
+      "swell_dir_tolerance": 45,
+      "height_min_ft": 3,
+      "height_max_ft": 9,
+      "period_min_s": 10,
+      "tide": "low",
+      "wind": "NE"
+    }
+  },
+  {
+    "id": "del_mar",
+    "name": "Del Mar 15th St",
+    "lat": 32.9595,
+    "lon": -117.2636,
+    "county": "San Diego",
+    "break_type": "beach_break",
+    "primary_buoy": "cdip-071",
+    "tide_station": "9410660",
+    "best": {
+      "swell_dir_deg": 270,
+      "swell_dir_tolerance": 60,
+      "height_min_ft": 2,
+      "height_max_ft": 7,
+      "period_min_s": 8,
+      "tide": "low-medium",
+      "wind": "NE"
+    }
+  }
+]
