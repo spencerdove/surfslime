@@ -35,6 +35,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "chore: update tide predictions [skip ci]"
+            git commit -m "chore: update tide predictions"
             git push
           fi
