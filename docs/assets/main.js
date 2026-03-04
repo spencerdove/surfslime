@@ -2,6 +2,8 @@
 
 // ===== CONFIG =====
 const DATA_BASE = "data";
+const ESRI_URL = "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}";
+const ESRI_ATTR = "Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community";
 const RATING_COLORS = {
   epic: "#ff6b35",
   good: "#4caf50",
@@ -19,6 +21,9 @@ let tidesCache = {};
 let bathyLayers = {};
 let depthLayerGroup = null;
 let depthVisible = false;
+let osmLayer = null;
+let esriLayer = null;
+let satelliteMode = false;
 let forecastChart = null;
 let tideChart = null;
 let map = null;
@@ -39,13 +44,15 @@ function initMap() {
     zoomControl: true,
   });
 
-  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+  osmLayer = L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
     attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
     maxZoom: 18,
-  }).addTo(map);
+  });
+  osmLayer.addTo(map);
 
   depthLayerGroup = L.layerGroup().addTo(map);
 
+  document.getElementById("satellite-toggle").addEventListener("click", toggleSatellite);
   document.getElementById("depth-toggle").addEventListener("click", toggleDepth);
 }
 
@@ -439,6 +446,23 @@ async function loadBathymetry(spotId) {
     }
   } catch (e) {
     // Bathymetry is optional — silently skip
+  }
+}
+
+function toggleSatellite() {
+  const btn = document.getElementById("satellite-toggle");
+  satelliteMode = !satelliteMode;
+  if (satelliteMode) {
+    if (!esriLayer) esriLayer = L.tileLayer(ESRI_URL, { maxZoom: 19, attribution: ESRI_ATTR });
+    osmLayer.remove();
+    esriLayer.addTo(map);
+    map.getContainer().classList.add("satellite-mode");
+    btn.classList.add("active");
+  } else {
+    esriLayer.remove();
+    osmLayer.addTo(map);
+    map.getContainer().classList.remove("satellite-mode");
+    btn.classList.remove("active");
   }
 }
 

@@ -163,8 +163,9 @@ def build_forecast_entries(forecast: dict, spot: dict) -> list[dict]:
         wind_dir = v("wind_direction_deg")
         wind_gusts = v("wind_gusts_mph")
 
-        wave_height_ft = round(wave_height_m * M_TO_FT, 1) if wave_height_m is not None else None
-        swell_height_ft = round(swell_height_m * M_TO_FT, 1) if swell_height_m is not None else None
+        factor = spot.get("local_height_factor", 1.0)
+        wave_height_ft = round(wave_height_m * M_TO_FT * factor, 1) if wave_height_m is not None else None
+        swell_height_ft = round(swell_height_m * M_TO_FT * factor, 1) if swell_height_m is not None else None
 
         rating_score, rating = compute_rating(
             wave_height_ft, swell_period, swell_dir, wind_speed, wind_dir, spot
@@ -226,8 +227,9 @@ def process_spot(spot: dict) -> dict:
     wind_spd_ms = buoy.get("WSPD")
     wind_dir = buoy.get("WDIR")
 
-    wave_height_ft = round(wvht_m * M_TO_FT, 1) if wvht_m else current_forecast.get("wave_height_ft")
-    swell_height_ft = round(swell_h_m * M_TO_FT, 1) if swell_h_m else current_forecast.get("swell_height_ft")
+    factor = spot.get("local_height_factor", 1.0)
+    wave_height_ft = round(wvht_m * M_TO_FT * factor, 1) if wvht_m else current_forecast.get("wave_height_ft")
+    swell_height_ft = round(swell_h_m * M_TO_FT * factor, 1) if swell_h_m else current_forecast.get("swell_height_ft")
     swell_period_s = swell_p or current_forecast.get("swell_period_s")
     swell_dir_deg = swell_d or current_forecast.get("swell_direction_deg")
     wind_speed_mph = round(wind_spd_ms * MS_TO_MPH, 1) if wind_spd_ms else current_forecast.get("wind_speed_mph")

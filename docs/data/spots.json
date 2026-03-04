@@ -8,6 +8,7 @@
     "break_type": "point_break",
     "primary_buoy": "cdip-045",
     "tide_station": "9410230",
+    "local_height_factor": 0.70,
     "best": {
       "swell_dir_deg": 285,
       "swell_dir_tolerance": 45,
@@ -27,6 +28,7 @@
     "break_type": "reef_break",
     "primary_buoy": "ndbc-46086",
     "tide_station": "9410230",
+    "local_height_factor": 0.75,
     "best": {
       "swell_dir_deg": 280,
       "swell_dir_tolerance": 40,
@@ -46,6 +48,7 @@
     "break_type": "beach_break",
     "primary_buoy": "ndbc-46086",
     "tide_station": "9410230",
+    "local_height_factor": 0.65,
     "best": {
       "swell_dir_deg": 270,
       "swell_dir_tolerance": 60,
@@ -65,6 +68,7 @@
     "break_type": "shorebreak",
     "primary_buoy": "ndbc-46086",
     "tide_station": "9410230",
+    "local_height_factor": 1.25,
     "best": {
       "swell_dir_deg": 170,
       "swell_dir_tolerance": 30,
@@ -84,6 +88,7 @@
     "break_type": "beach_break",
     "primary_buoy": "cdip-045",
     "tide_station": "9410230",
+    "local_height_factor": 0.60,
     "best": {
       "swell_dir_deg": 260,
       "swell_dir_tolerance": 50,
@@ -103,6 +108,7 @@
     "break_type": "reef_break",
     "primary_buoy": "cdip-071",
     "tide_station": "9410660",
+    "local_height_factor": 0.75,
     "best": {
       "swell_dir_deg": 300,
       "swell_dir_tolerance": 40,
@@ -122,6 +128,7 @@
     "break_type": "reef_break",
     "primary_buoy": "cdip-071",
     "tide_station": "9410660",
+    "local_height_factor": 0.80,
     "best": {
       "swell_dir_deg": 300,
       "swell_dir_tolerance": 40,
@@ -141,6 +148,7 @@
     "break_type": "beach_break",
     "primary_buoy": "cdip-201",
     "tide_station": "9410660",
+    "local_height_factor": 0.70,
     "best": {
       "swell_dir_deg": 270,
       "swell_dir_tolerance": 60,
@@ -160,6 +168,7 @@
     "break_type": "beach_break",
     "primary_buoy": "cdip-071",
     "tide_station": "9410660",
+    "local_height_factor": 0.65,
     "best": {
       "swell_dir_deg": 270,
       "swell_dir_tolerance": 60,
@@ -179,6 +188,7 @@
     "break_type": "reef_break",
     "primary_buoy": "cdip-201",
     "tide_station": "9410660",
+    "local_height_factor": 0.80,
     "best": {
       "swell_dir_deg": 300,
       "swell_dir_tolerance": 45,
@@ -198,6 +208,7 @@
     "break_type": "reef_break",
     "primary_buoy": "cdip-045",
     "tide_station": "9410660",
+    "local_height_factor": 0.75,
     "best": {
       "swell_dir_deg": 295,
       "swell_dir_tolerance": 40,
@@ -217,6 +228,7 @@
     "break_type": "reef_break",
     "primary_buoy": "cdip-045",
     "tide_station": "9410660",
+    "local_height_factor": 0.75,
     "best": {
       "swell_dir_deg": 280,
       "swell_dir_tolerance": 45,
@@ -236,6 +248,7 @@
     "break_type": "beach_break",
     "primary_buoy": "cdip-071",
     "tide_station": "9410660",
+    "local_height_factor": 0.65,
     "best": {
       "swell_dir_deg": 270,
       "swell_dir_tolerance": 60,
