@@ -4,6 +4,8 @@
 const DATA_BASE = "data";
 const ESRI_URL = "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}";
 const ESRI_ATTR = "Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community";
+const OPENSEAMAP_URL = "https://tiles.openseamap.org/seamark/{z}/{x}/{y}.png";
+const OPENSEAMAP_ATTR = 'Map data: &copy; <a href="http://www.openseamap.org">OpenSeaMap</a> contributors';
 const RATING_COLORS = {
   epic: "#ff6b35",
   good: "#4caf50",
@@ -18,9 +20,8 @@ let selectedSpotId = null;
 let markers = {};
 let conditionsCache = {};
 let tidesCache = {};
-let bathyLayers = {};
-let depthLayerGroup = null;
-let depthVisible = false;
+let seaChartLayer = null;
+let seaChartVisible = false;
 let osmLayer = null;
 let esriLayer = null;
 let satelliteMode = false;
@@ -50,10 +51,8 @@ function initMap() {
   });
   osmLayer.addTo(map);
 
-  depthLayerGroup = L.layerGroup().addTo(map);
-
   document.getElementById("satellite-toggle").addEventListener("click", toggleSatellite);
-  document.getElementById("depth-toggle").addEventListener("click", toggleDepth);
+  document.getElementById("depth-toggle").addEventListener("click", toggleSeaChart);
 }
 
 // ===== SPOTS =====
@@ -246,8 +245,6 @@ async function renderSidebar(spotId) {
     renderTideChart(tideData);
   }
 
-  // Bathymetry
-  loadBathymetry(spotId);
 }
 
 function setCondCell(id, value) {
@@ -413,42 +410,6 @@ function interpolateTide(predictions, nowMs) {
   return prev.v + frac * (next.v - prev.v);
 }
 
-// ===== BATHYMETRY =====
-async function loadBathymetry(spotId) {
-  if (bathyLayers[spotId]) return; // already loaded
-
-  try {
-    const res = await fetch(`${DATA_BASE}/bathymetry/${spotId}.json`);
-    if (!res.ok) return;
-    const geojson = await res.json();
-
-    if (!geojson.features?.length) return;
-
-    const layer = L.geoJSON(geojson, {
-      style: feature => ({
-        color: feature.properties.color || "#00d4ff",
-        weight: 1,
-        opacity: 0.7,
-        fill: false,
-      }),
-      onEachFeature: (feature, layer) => {
-        layer.bindTooltip(
-          `${feature.properties.label || ""} (${feature.properties.depth_ft || "?"}ft)`,
-          { sticky: true, className: "depth-tooltip" }
-        );
-      },
-    });
-
-    bathyLayers[spotId] = layer;
-
-    if (depthVisible) {
-      depthLayerGroup.addLayer(layer);
-    }
-  } catch (e) {
-    // Bathymetry is optional — silently skip
-  }
-}
-
 function toggleSatellite() {
   const btn = document.getElementById("satellite-toggle");
   satelliteMode = !satelliteMode;
@@ -466,16 +427,17 @@ function toggleSatellite() {
   }
 }
 
-function toggleDepth() {
+function toggleSeaChart() {
   const btn = document.getElementById("depth-toggle");
-  depthVisible = !depthVisible;
-  btn.classList.toggle("active", depthVisible);
-  btn.textContent = depthVisible ? "Hide Depth" : "Show Depth";
-
-  depthLayerGroup.clearLayers();
-
-  if (depthVisible && selectedSpotId && bathyLayers[selectedSpotId]) {
-    depthLayerGroup.addLayer(bathyLayers[selectedSpotId]);
+  seaChartVisible = !seaChartVisible;
+  if (seaChartVisible) {
+    if (!satelliteMode) toggleSatellite();
+    if (!seaChartLayer) seaChartLayer = L.tileLayer(OPENSEAMAP_URL, { maxZoom: 18, attribution: OPENSEAMAP_ATTR, opacity: 0.9 });
+    seaChartLayer.addTo(map);
+    btn.classList.add("active");
+  } else {
+    seaChartLayer.remove();
+    btn.classList.remove("active");
   }
 }
 
