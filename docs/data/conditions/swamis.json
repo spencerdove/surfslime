@@ -1,18 +1,18 @@
 {
   "spot_id": "swamis",
-  "updated_at": "2026-03-04T22:30:01.053746+00:00",
-  "rating": "poor",
-  "rating_score": 28,
+  "updated_at": "2026-03-05T01:54:41.082456+00:00",
+  "rating": "flat",
+  "rating_score": 0,
   "current": {
-    "wave_height_ft": 1.8,
-    "swell_height_ft": 1.8,
-    "swell_period_s": 7.7,
-    "swell_direction_deg": 273,
+    "wave_height_ft": null,
+    "swell_height_ft": null,
+    "swell_period_s": null,
+    "swell_direction_deg": null,
     "wind_speed_mph": null,
     "wind_direction_deg": null,
     "wind_label": null
   },
   "buoy_id": "cdip-045",
-  "buoy_timestamp": "2026-03-04T21:30:00Z",
+  "buoy_timestamp": null,
   "forecast": []
 }
