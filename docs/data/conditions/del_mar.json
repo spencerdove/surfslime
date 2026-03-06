@@ -1,18 +1,18 @@
 {
   "spot_id": "del_mar",
-  "updated_at": "2026-03-05T22:30:31.980345+00:00",
-  "rating": "fair",
-  "rating_score": 41,
+  "updated_at": "2026-03-06T01:56:13.284831+00:00",
+  "rating": "flat",
+  "rating_score": 0,
   "current": {
-    "wave_height_ft": 6.4,
-    "swell_height_ft": 6.4,
-    "swell_period_s": 9.9,
-    "swell_direction_deg": 310,
+    "wave_height_ft": null,
+    "swell_height_ft": null,
+    "swell_period_s": null,
+    "swell_direction_deg": null,
     "wind_speed_mph": null,
     "wind_direction_deg": null,
     "wind_label": null
   },
   "buoy_id": "cdip-071",
-  "buoy_timestamp": "2026-03-05T21:30:00Z",
+  "buoy_timestamp": null,
   "forecast": []
 }
