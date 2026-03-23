@@ -1,6 +1,6 @@
 {
   "spot_id": "sunset_cliffs",
-  "updated_at": "2026-03-23T20:36:38.079579+00:00",
+  "updated_at": "2026-03-23T22:30:12.100260+00:00",
   "rating": "poor",
   "rating_score": 29,
   "current": {
@@ -13,6 +13,6 @@
     "wind_label": null
   },
   "buoy_id": "cdip-201",
-  "buoy_timestamp": "2026-03-23T19:30:00Z",
+  "buoy_timestamp": "2026-03-23T21:30:00Z",
   "forecast": []
 }
