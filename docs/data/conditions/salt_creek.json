@@ -1,19 +1,19 @@
 {
   "spot_id": "salt_creek",
-  "updated_at": "2026-03-23T18:51:39.625416+00:00",
-  "rating": "good",
-  "rating_score": 61,
+  "updated_at": "2026-03-23T20:35:16.778338+00:00",
+  "rating": "poor",
+  "rating_score": 37,
   "current": {
-    "wave_height_ft": 2.7,
-    "swell_height_ft": 2.7,
-    "swell_period_s": 9.1,
-    "swell_direction_deg": 289,
-    "wind_speed_mph": 6.7,
-    "wind_direction_deg": 90,
-    "wind_label": "offshore"
+    "wave_height_ft": 3.0,
+    "swell_height_ft": 3.0,
+    "swell_period_s": 12.9,
+    "swell_direction_deg": 203,
+    "wind_speed_mph": 4.5,
+    "wind_direction_deg": 170,
+    "wind_label": "onshore"
   },
   "buoy_id": "ndbc-46086",
-  "buoy_timestamp": "202026-03-23T18:20:00Z",
+  "buoy_timestamp": "202026-03-23T20:10:00Z",
   "forecast": [
     {
       "time": "2026-03-23T00:00Z",

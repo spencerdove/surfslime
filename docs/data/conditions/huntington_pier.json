@@ -1,19 +1,19 @@
 {
   "spot_id": "huntington_pier",
-  "updated_at": "2026-03-23T18:51:40.996725+00:00",
-  "rating": "good",
-  "rating_score": 61,
+  "updated_at": "2026-03-23T20:35:17.948691+00:00",
+  "rating": "poor",
+  "rating_score": 39,
   "current": {
-    "wave_height_ft": 2.3,
-    "swell_height_ft": 2.3,
-    "swell_period_s": 9.1,
-    "swell_direction_deg": 289,
-    "wind_speed_mph": 6.7,
-    "wind_direction_deg": 90,
-    "wind_label": "offshore"
+    "wave_height_ft": 2.6,
+    "swell_height_ft": 2.6,
+    "swell_period_s": 12.9,
+    "swell_direction_deg": 203,
+    "wind_speed_mph": 4.5,
+    "wind_direction_deg": 170,
+    "wind_label": "onshore"
   },
   "buoy_id": "ndbc-46086",
-  "buoy_timestamp": "202026-03-23T18:20:00Z",
+  "buoy_timestamp": "202026-03-23T20:10:00Z",
   "forecast": [
     {
       "time": "2026-03-23T00:00Z",
