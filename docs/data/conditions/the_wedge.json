@@ -1,18 +1,18 @@
 {
   "spot_id": "the_wedge",
-  "updated_at": "2026-03-24T16:57:39.904547+00:00",
+  "updated_at": "2026-03-24T18:59:25.178383+00:00",
   "rating": "fair",
-  "rating_score": 43,
+  "rating_score": 47,
   "current": {
-    "wave_height_ft": 4.1,
-    "swell_height_ft": 4.1,
+    "wave_height_ft": 3.3,
+    "swell_height_ft": 3.3,
     "swell_period_s": 17.4,
-    "swell_direction_deg": 222,
-    "wind_speed_mph": 2.2,
-    "wind_direction_deg": 160,
-    "wind_label": "onshore"
+    "swell_direction_deg": 235,
+    "wind_speed_mph": 4.5,
+    "wind_direction_deg": 190,
+    "wind_label": "cross"
   },
   "buoy_id": "ndbc-46086",
-  "buoy_timestamp": "202026-03-24T16:30:00Z",
+  "buoy_timestamp": "202026-03-24T18:30:00Z",
   "forecast": []
 }
