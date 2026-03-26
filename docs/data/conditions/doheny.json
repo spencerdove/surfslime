@@ -1,18 +1,18 @@
 {
   "spot_id": "doheny",
-  "updated_at": "2026-03-26T16:58:16.729019+00:00",
-  "rating": "flat",
-  "rating_score": 0,
+  "updated_at": "2026-03-26T19:02:16.138427+00:00",
+  "rating": "poor",
+  "rating_score": 28,
   "current": {
-    "wave_height_ft": null,
-    "swell_height_ft": null,
-    "swell_period_s": null,
-    "swell_direction_deg": null,
+    "wave_height_ft": 1.2,
+    "swell_height_ft": 1.2,
+    "swell_period_s": 14.3,
+    "swell_direction_deg": 201,
     "wind_speed_mph": null,
     "wind_direction_deg": null,
     "wind_label": null
   },
   "buoy_id": "cdip-045",
-  "buoy_timestamp": null,
+  "buoy_timestamp": "2026-03-26T18:30:00Z",
   "forecast": []
 }
