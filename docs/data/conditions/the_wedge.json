@@ -1,19 +1,19 @@
 {
   "spot_id": "the_wedge",
-  "updated_at": "2026-03-30T15:01:05.356720+00:00",
+  "updated_at": "2026-03-30T16:53:15.359297+00:00",
   "rating": "poor",
-  "rating_score": 32,
+  "rating_score": 33,
   "current": {
     "wave_height_ft": 3.3,
-    "swell_height_ft": 2.9,
+    "swell_height_ft": 3.3,
     "swell_period_s": 12.1,
-    "swell_direction_deg": 212,
+    "swell_direction_deg": 197,
     "wind_speed_mph": 8.9,
-    "wind_direction_deg": 140,
+    "wind_direction_deg": 150,
     "wind_label": "onshore"
   },
   "buoy_id": "ndbc-46086",
-  "buoy_timestamp": "202026-03-30T14:30:00Z",
+  "buoy_timestamp": "202026-03-30T16:30:00Z",
   "forecast": [
     {
       "time": "2026-03-30T00:00Z",
@@ -203,9 +203,9 @@
       "swell_height_ft": 1.6,
       "swell_period_s": 10.2,
       "swell_direction_deg": 185,
-      "wind_speed_mph": 6.1,
-      "wind_direction_deg": 156,
-      "wind_gusts_mph": 13.0,
+      "wind_speed_mph": 3.9,
+      "wind_direction_deg": 170,
+      "wind_gusts_mph": 7.6,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 30
@@ -216,12 +216,12 @@
       "swell_height_ft": 1.6,
       "swell_period_s": 10.2,
       "swell_direction_deg": 185,
-      "wind_speed_mph": 9.3,
-      "wind_direction_deg": 170,
-      "wind_gusts_mph": 15.4,
-      "wind_label": "onshore",
+      "wind_speed_mph": 2.9,
+      "wind_direction_deg": 184,
+      "wind_gusts_mph": 9.6,
+      "wind_label": "cross",
       "rating": "poor",
-      "rating_score": 30
+      "rating_score": 38
     },
     {
       "time": "2026-03-30T16:00Z",
@@ -229,9 +229,9 @@
       "swell_height_ft": 1.6,
       "swell_period_s": 10.2,
       "swell_direction_deg": 185,
-      "wind_speed_mph": 10.0,
-      "wind_direction_deg": 170,
-      "wind_gusts_mph": 13.9,
+      "wind_speed_mph": 10.8,
+      "wind_direction_deg": 167,
+      "wind_gusts_mph": 15.7,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 30
@@ -242,9 +242,9 @@
       "swell_height_ft": 1.6,
       "swell_period_s": 10.2,
       "swell_direction_deg": 184,
-      "wind_speed_mph": 8.4,
-      "wind_direction_deg": 171,
-      "wind_gusts_mph": 10.7,
+      "wind_speed_mph": 11.7,
+      "wind_direction_deg": 167,
+      "wind_gusts_mph": 15.2,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 30
@@ -255,9 +255,9 @@
       "swell_height_ft": 1.6,
       "swell_period_s": 10.2,
       "swell_direction_deg": 184,
-      "wind_speed_mph": 8.4,
-      "wind_direction_deg": 169,
-      "wind_gusts_mph": 12.1,
+      "wind_speed_mph": 10.5,
+      "wind_direction_deg": 179,
+      "wind_gusts_mph": 14.5,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 30
@@ -268,12 +268,12 @@
       "swell_height_ft": 1.6,
       "swell_period_s": 10.2,
       "swell_direction_deg": 184,
-      "wind_speed_mph": 9.3,
-      "wind_direction_deg": 170,
-      "wind_gusts_mph": 12.8,
-      "wind_label": "onshore",
+      "wind_speed_mph": 9.1,
+      "wind_direction_deg": 190,
+      "wind_gusts_mph": 11.4,
+      "wind_label": "cross",
       "rating": "poor",
-      "rating_score": 30
+      "rating_score": 38
     },
     {
       "time": "2026-03-30T20:00Z",
@@ -281,12 +281,12 @@
       "swell_height_ft": 1.6,
       "swell_period_s": 10.0,
       "swell_direction_deg": 184,
-      "wind_speed_mph": 9.9,
-      "wind_direction_deg": 172,
-      "wind_gusts_mph": 12.3,
-      "wind_label": "onshore",
+      "wind_speed_mph": 9.0,
+      "wind_direction_deg": 186,
+      "wind_gusts_mph": 10.5,
+      "wind_label": "cross",
       "rating": "poor",
-      "rating_score": 30
+      "rating_score": 38
     },
     {
       "time": "2026-03-30T21:00Z",
@@ -294,12 +294,12 @@
       "swell_height_ft": 1.6,
       "swell_period_s": 9.9,
       "swell_direction_deg": 184,
-      "wind_speed_mph": 11.5,
-      "wind_direction_deg": 171,
-      "wind_gusts_mph": 15.0,
-      "wind_label": "onshore",
+      "wind_speed_mph": 10.5,
+      "wind_direction_deg": 180,
+      "wind_gusts_mph": 12.8,
+      "wind_label": "cross",
       "rating": "poor",
-      "rating_score": 30
+      "rating_score": 38
     },
     {
       "time": "2026-03-30T22:00Z",
@@ -307,9 +307,9 @@
       "swell_height_ft": 1.6,
       "swell_period_s": 10.0,
       "swell_direction_deg": 184,
-      "wind_speed_mph": 11.0,
-      "wind_direction_deg": 181,
-      "wind_gusts_mph": 15.2,
+      "wind_speed_mph": 9.2,
+      "wind_direction_deg": 183,
+      "wind_gusts_mph": 11.9,
       "wind_label": "cross",
       "rating": "poor",
       "rating_score": 38
@@ -320,9 +320,9 @@
       "swell_height_ft": 1.6,
       "swell_period_s": 10.2,
       "swell_direction_deg": 184,
-      "wind_speed_mph": 10.0,
-      "wind_direction_deg": 190,
-      "wind_gusts_mph": 14.3,
+      "wind_speed_mph": 9.6,
+      "wind_direction_deg": 181,
+      "wind_gusts_mph": 12.8,
       "wind_label": "cross",
       "rating": "poor",
       "rating_score": 38
@@ -333,12 +333,12 @@
       "swell_height_ft": 1.6,
       "swell_period_s": 10.2,
       "swell_direction_deg": 184,
-      "wind_speed_mph": 9.4,
-      "wind_direction_deg": 192,
-      "wind_gusts_mph": 13.6,
-      "wind_label": "cross",
+      "wind_speed_mph": 10.1,
+      "wind_direction_deg": 176,
+      "wind_gusts_mph": 13.4,
+      "wind_label": "onshore",
       "rating": "poor",
-      "rating_score": 38
+      "rating_score": 30
     },
     {
       "time": "2026-03-31T01:00Z",
@@ -346,12 +346,12 @@
       "swell_height_ft": 1.6,
       "swell_period_s": 10.3,
       "swell_direction_deg": 184,
-      "wind_speed_mph": 8.3,
-      "wind_direction_deg": 182,
+      "wind_speed_mph": 7.6,
+      "wind_direction_deg": 177,
       "wind_gusts_mph": 12.3,
-      "wind_label": "cross",
+      "wind_label": "onshore",
       "rating": "poor",
-      "rating_score": 38
+      "rating_score": 30
     },
     {
       "time": "2026-03-31T02:00Z",
@@ -359,12 +359,12 @@
       "swell_height_ft": 1.6,
       "swell_period_s": 10.3,
       "swell_direction_deg": 184,
-      "wind_speed_mph": 9.2,
-      "wind_direction_deg": 176,
-      "wind_gusts_mph": 12.8,
-      "wind_label": "onshore",
+      "wind_speed_mph": 6.5,
+      "wind_direction_deg": 188,
+      "wind_gusts_mph": 9.4,
+      "wind_label": "cross",
       "rating": "poor",
-      "rating_score": 30
+      "rating_score": 38
     },
     {
       "time": "2026-03-31T03:00Z",
@@ -372,9 +372,9 @@
       "swell_height_ft": 1.6,
       "swell_period_s": 10.2,
       "swell_direction_deg": 184,
-      "wind_speed_mph": 9.9,
-      "wind_direction_deg": 175,
-      "wind_gusts_mph": 15.0,
+      "wind_speed_mph": 6.3,
+      "wind_direction_deg": 176,
+      "wind_gusts_mph": 9.8,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 30
@@ -385,12 +385,12 @@
       "swell_height_ft": 1.6,
       "swell_period_s": 10.2,
       "swell_direction_deg": 185,
-      "wind_speed_mph": 9.2,
-      "wind_direction_deg": 176,
-      "wind_gusts_mph": 14.3,
-      "wind_label": "onshore",
+      "wind_speed_mph": 7.8,
+      "wind_direction_deg": 183,
+      "wind_gusts_mph": 11.4,
+      "wind_label": "cross",
       "rating": "poor",
-      "rating_score": 30
+      "rating_score": 38
     },
     {
       "time": "2026-03-31T05:00Z",
@@ -398,9 +398,9 @@
       "swell_height_ft": 1.6,
       "swell_period_s": 10.1,
       "swell_direction_deg": 185,
-      "wind_speed_mph": 9.7,
-      "wind_direction_deg": 173,
-      "wind_gusts_mph": 15.0,
+      "wind_speed_mph": 7.4,
+      "wind_direction_deg": 159,
+      "wind_gusts_mph": 12.8,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 29
@@ -411,12 +411,12 @@
       "swell_height_ft": 1.6,
       "swell_period_s": 10.0,
       "swell_direction_deg": 186,
-      "wind_speed_mph": 10.5,
-      "wind_direction_deg": 180,
-      "wind_gusts_mph": 14.5,
-      "wind_label": "cross",
+      "wind_speed_mph": 12.3,
+      "wind_direction_deg": 179,
+      "wind_gusts_mph": 17.2,
+      "wind_label": "onshore",
       "rating": "poor",
-      "rating_score": 36
+      "rating_score": 28
     },
     {
       "time": "2026-03-31T07:00Z",
@@ -424,9 +424,9 @@
       "swell_height_ft": 1.6,
       "swell_period_s": 9.8,
       "swell_direction_deg": 186,
-      "wind_speed_mph": 9.6,
-      "wind_direction_deg": 184,
-      "wind_gusts_mph": 13.9,
+      "wind_speed_mph": 8.6,
+      "wind_direction_deg": 181,
+      "wind_gusts_mph": 15.2,
       "wind_label": "cross",
       "rating": "poor",
       "rating_score": 36
@@ -437,12 +437,12 @@
       "swell_height_ft": 1.6,
       "swell_period_s": 9.6,
       "swell_direction_deg": 186,
-      "wind_speed_mph": 8.6,
-      "wind_direction_deg": 155,
-      "wind_gusts_mph": 13.4,
-      "wind_label": "onshore",
+      "wind_speed_mph": 7.7,
+      "wind_direction_deg": 181,
+      "wind_gusts_mph": 12.4,
+      "wind_label": "cross",
       "rating": "poor",
-      "rating_score": 27
+      "rating_score": 35
     },
     {
       "time": "2026-03-31T09:00Z",
@@ -451,8 +451,8 @@
       "swell_period_s": 9.4,
       "swell_direction_deg": 186,
       "wind_speed_mph": 8.7,
-      "wind_direction_deg": 167,
-      "wind_gusts_mph": 13.9,
+      "wind_direction_deg": 164,
+      "wind_gusts_mph": 13.8,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 27
