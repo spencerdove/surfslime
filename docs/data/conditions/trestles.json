@@ -1,19 +1,19 @@
 {
   "spot_id": "trestles",
-  "updated_at": "2026-04-17T06:01:26.900294+00:00",
+  "updated_at": "2026-04-17T09:14:23.538965+00:00",
   "rating": "poor",
-  "rating_score": 33,
+  "rating_score": 27,
   "current": {
-    "wave_height_ft": 1.9,
-    "swell_height_ft": 1.9,
-    "swell_period_s": 16.7,
-    "swell_direction_deg": 192,
+    "wave_height_ft": 1.8,
+    "swell_height_ft": 1.3,
+    "swell_period_s": 12.9,
+    "swell_direction_deg": 190,
     "wind_speed_mph": 7.5,
     "wind_direction_deg": 253,
     "wind_label": "onshore"
   },
   "buoy_id": "cdip-045",
-  "buoy_timestamp": "2026-04-17T05:30:00Z",
+  "buoy_timestamp": null,
   "forecast": [
     {
       "time": "2026-04-17T00:00Z",
@@ -86,12 +86,12 @@
       "swell_height_ft": 1.4,
       "swell_period_s": 13.1,
       "swell_direction_deg": 190,
-      "wind_speed_mph": 3.8,
-      "wind_direction_deg": 180,
-      "wind_gusts_mph": 4.5,
-      "wind_label": "onshore",
-      "rating": "poor",
-      "rating_score": 28
+      "wind_speed_mph": 2.9,
+      "wind_direction_deg": 90,
+      "wind_gusts_mph": 4.0,
+      "wind_label": "offshore",
+      "rating": "fair",
+      "rating_score": 43
     },
     {
       "time": "2026-04-17T06:00Z",
@@ -99,12 +99,12 @@
       "swell_height_ft": 1.4,
       "swell_period_s": 13.1,
       "swell_direction_deg": 190,
-      "wind_speed_mph": 4.5,
-      "wind_direction_deg": 127,
-      "wind_gusts_mph": 4.7,
-      "wind_label": "cross",
-      "rating": "poor",
-      "rating_score": 36
+      "wind_speed_mph": 3.6,
+      "wind_direction_deg": 86,
+      "wind_gusts_mph": 6.0,
+      "wind_label": "offshore",
+      "rating": "fair",
+      "rating_score": 43
     },
     {
       "time": "2026-04-17T07:00Z",
@@ -112,12 +112,12 @@
       "swell_height_ft": 1.4,
       "swell_period_s": 13.1,
       "swell_direction_deg": 190,
-      "wind_speed_mph": 5.6,
-      "wind_direction_deg": 119,
-      "wind_gusts_mph": 6.7,
-      "wind_label": "cross",
+      "wind_speed_mph": 5.4,
+      "wind_direction_deg": 171,
+      "wind_gusts_mph": 9.6,
+      "wind_label": "onshore",
       "rating": "poor",
-      "rating_score": 36
+      "rating_score": 28
     },
     {
       "time": "2026-04-17T08:00Z",
@@ -125,9 +125,9 @@
       "swell_height_ft": 1.5,
       "swell_period_s": 13.1,
       "swell_direction_deg": 190,
-      "wind_speed_mph": 6.0,
-      "wind_direction_deg": 117,
-      "wind_gusts_mph": 10.7,
+      "wind_speed_mph": 5.6,
+      "wind_direction_deg": 130,
+      "wind_gusts_mph": 8.5,
       "wind_label": "cross",
       "rating": "poor",
       "rating_score": 36
@@ -138,9 +138,9 @@
       "swell_height_ft": 1.5,
       "swell_period_s": 13.0,
       "swell_direction_deg": 190,
-      "wind_speed_mph": 5.0,
-      "wind_direction_deg": 111,
-      "wind_gusts_mph": 12.3,
+      "wind_speed_mph": 5.9,
+      "wind_direction_deg": 115,
+      "wind_gusts_mph": 9.8,
       "wind_label": "cross",
       "rating": "poor",
       "rating_score": 36
@@ -151,12 +151,12 @@
       "swell_height_ft": 1.5,
       "swell_period_s": 12.9,
       "swell_direction_deg": 190,
-      "wind_speed_mph": 4.8,
-      "wind_direction_deg": 68,
-      "wind_gusts_mph": 8.5,
-      "wind_label": "offshore",
-      "rating": "fair",
-      "rating_score": 44
+      "wind_speed_mph": 7.0,
+      "wind_direction_deg": 143,
+      "wind_gusts_mph": 12.1,
+      "wind_label": "onshore",
+      "rating": "poor",
+      "rating_score": 29
     },
     {
       "time": "2026-04-17T11:00Z",
@@ -164,9 +164,9 @@
       "swell_height_ft": 1.5,
       "swell_period_s": 12.8,
       "swell_direction_deg": 190,
-      "wind_speed_mph": 5.9,
-      "wind_direction_deg": 115,
-      "wind_gusts_mph": 11.0,
+      "wind_speed_mph": 5.7,
+      "wind_direction_deg": 99,
+      "wind_gusts_mph": 10.5,
       "wind_label": "cross",
       "rating": "poor",
       "rating_score": 37
@@ -177,9 +177,9 @@
       "swell_height_ft": 1.5,
       "swell_period_s": 12.8,
       "swell_direction_deg": 190,
-      "wind_speed_mph": 5.2,
-      "wind_direction_deg": 83,
-      "wind_gusts_mph": 10.1,
+      "wind_speed_mph": 4.9,
+      "wind_direction_deg": 87,
+      "wind_gusts_mph": 9.6,
       "wind_label": "offshore",
       "rating": "fair",
       "rating_score": 44
@@ -190,12 +190,12 @@
       "swell_height_ft": 1.5,
       "swell_period_s": 12.8,
       "swell_direction_deg": 190,
-      "wind_speed_mph": 5.9,
-      "wind_direction_deg": 83,
-      "wind_gusts_mph": 10.1,
-      "wind_label": "offshore",
-      "rating": "fair",
-      "rating_score": 44
+      "wind_speed_mph": 4.8,
+      "wind_direction_deg": 118,
+      "wind_gusts_mph": 10.3,
+      "wind_label": "cross",
+      "rating": "poor",
+      "rating_score": 37
     },
     {
       "time": "2026-04-17T14:00Z",
@@ -203,12 +203,12 @@
       "swell_height_ft": 1.4,
       "swell_period_s": 12.8,
       "swell_direction_deg": 190,
-      "wind_speed_mph": 4.7,
-      "wind_direction_deg": 93,
-      "wind_gusts_mph": 8.5,
-      "wind_label": "cross",
-      "rating": "poor",
-      "rating_score": 37
+      "wind_speed_mph": 4.6,
+      "wind_direction_deg": 76,
+      "wind_gusts_mph": 8.1,
+      "wind_label": "offshore",
+      "rating": "fair",
+      "rating_score": 44
     },
     {
       "time": "2026-04-17T15:00Z",
@@ -216,12 +216,12 @@
       "swell_height_ft": 1.4,
       "swell_period_s": 12.8,
       "swell_direction_deg": 190,
-      "wind_speed_mph": 4.2,
-      "wind_direction_deg": 164,
-      "wind_gusts_mph": 8.7,
-      "wind_label": "onshore",
+      "wind_speed_mph": 3.3,
+      "wind_direction_deg": 118,
+      "wind_gusts_mph": 7.4,
+      "wind_label": "cross",
       "rating": "poor",
-      "rating_score": 29
+      "rating_score": 37
     },
     {
       "time": "2026-04-17T16:00Z",
@@ -229,8 +229,8 @@
       "swell_height_ft": 1.4,
       "swell_period_s": 12.7,
       "swell_direction_deg": 190,
-      "wind_speed_mph": 6.8,
-      "wind_direction_deg": 169,
+      "wind_speed_mph": 7.4,
+      "wind_direction_deg": 178,
       "wind_gusts_mph": 8.1,
       "wind_label": "onshore",
       "rating": "poor",
@@ -242,9 +242,9 @@
       "swell_height_ft": 1.4,
       "swell_period_s": 12.6,
       "swell_direction_deg": 189,
-      "wind_speed_mph": 9.8,
-      "wind_direction_deg": 197,
-      "wind_gusts_mph": 10.7,
+      "wind_speed_mph": 10.5,
+      "wind_direction_deg": 200,
+      "wind_gusts_mph": 11.4,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 29
@@ -255,9 +255,9 @@
       "swell_height_ft": 1.4,
       "swell_period_s": 12.6,
       "swell_direction_deg": 189,
-      "wind_speed_mph": 8.9,
-      "wind_direction_deg": 221,
-      "wind_gusts_mph": 9.4,
+      "wind_speed_mph": 9.0,
+      "wind_direction_deg": 215,
+      "wind_gusts_mph": 9.6,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 29
@@ -268,9 +268,9 @@
       "swell_height_ft": 1.3,
       "swell_period_s": 12.8,
       "swell_direction_deg": 186,
-      "wind_speed_mph": 8.6,
-      "wind_direction_deg": 233,
-      "wind_gusts_mph": 9.2,
+      "wind_speed_mph": 8.2,
+      "wind_direction_deg": 225,
+      "wind_gusts_mph": 8.7,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 28
@@ -281,9 +281,9 @@
       "swell_height_ft": 1.2,
       "swell_period_s": 13.2,
       "swell_direction_deg": 184,
-      "wind_speed_mph": 8.6,
-      "wind_direction_deg": 242,
-      "wind_gusts_mph": 9.2,
+      "wind_speed_mph": 7.9,
+      "wind_direction_deg": 241,
+      "wind_gusts_mph": 8.3,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 29
@@ -294,9 +294,9 @@
       "swell_height_ft": 1.1,
       "swell_period_s": 13.4,
       "swell_direction_deg": 181,
-      "wind_speed_mph": 9.6,
-      "wind_direction_deg": 267,
-      "wind_gusts_mph": 10.5,
+      "wind_speed_mph": 9.5,
+      "wind_direction_deg": 261,
+      "wind_gusts_mph": 10.1,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 29
@@ -307,9 +307,9 @@
       "swell_height_ft": 1.1,
       "swell_period_s": 13.5,
       "swell_direction_deg": 181,
-      "wind_speed_mph": 9.3,
-      "wind_direction_deg": 281,
-      "wind_gusts_mph": 10.5,
+      "wind_speed_mph": 9.7,
+      "wind_direction_deg": 278,
+      "wind_gusts_mph": 10.7,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 29
@@ -320,9 +320,9 @@
       "swell_height_ft": 1.2,
       "swell_period_s": 13.6,
       "swell_direction_deg": 181,
-      "wind_speed_mph": 10.2,
-      "wind_direction_deg": 293,
-      "wind_gusts_mph": 11.4,
+      "wind_speed_mph": 10.1,
+      "wind_direction_deg": 292,
+      "wind_gusts_mph": 11.6,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 29
@@ -333,9 +333,9 @@
       "swell_height_ft": 1.2,
       "swell_period_s": 13.6,
       "swell_direction_deg": 181,
-      "wind_speed_mph": 9.0,
-      "wind_direction_deg": 297,
-      "wind_gusts_mph": 10.7,
+      "wind_speed_mph": 10.4,
+      "wind_direction_deg": 303,
+      "wind_gusts_mph": 12.8,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 29
@@ -346,9 +346,9 @@
       "swell_height_ft": 1.2,
       "swell_period_s": 13.6,
       "swell_direction_deg": 181,
-      "wind_speed_mph": 8.7,
-      "wind_direction_deg": 296,
-      "wind_gusts_mph": 11.6,
+      "wind_speed_mph": 9.6,
+      "wind_direction_deg": 306,
+      "wind_gusts_mph": 13.0,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 29
@@ -359,9 +359,9 @@
       "swell_height_ft": 1.1,
       "swell_period_s": 13.6,
       "swell_direction_deg": 181,
-      "wind_speed_mph": 8.9,
-      "wind_direction_deg": 309,
-      "wind_gusts_mph": 13.0,
+      "wind_speed_mph": 9.5,
+      "wind_direction_deg": 311,
+      "wind_gusts_mph": 15.0,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 28
@@ -372,12 +372,12 @@
       "swell_height_ft": 1.1,
       "swell_period_s": 13.4,
       "swell_direction_deg": 181,
-      "wind_speed_mph": 5.9,
-      "wind_direction_deg": 331,
-      "wind_gusts_mph": 12.1,
-      "wind_label": "cross",
+      "wind_speed_mph": 7.9,
+      "wind_direction_deg": 313,
+      "wind_gusts_mph": 14.1,
+      "wind_label": "onshore",
       "rating": "poor",
-      "rating_score": 36
+      "rating_score": 28
     },
     {
       "time": "2026-04-18T04:00Z",
@@ -385,9 +385,9 @@
       "swell_height_ft": 1.2,
       "swell_period_s": 13.2,
       "swell_direction_deg": 184,
-      "wind_speed_mph": 3.7,
-      "wind_direction_deg": 346,
-      "wind_gusts_mph": 8.1,
+      "wind_speed_mph": 5.7,
+      "wind_direction_deg": 321,
+      "wind_gusts_mph": 12.8,
       "wind_label": "cross",
       "rating": "poor",
       "rating_score": 36
@@ -398,12 +398,12 @@
       "swell_height_ft": 1.3,
       "swell_period_s": 12.9,
       "swell_direction_deg": 186,
-      "wind_speed_mph": 2.0,
-      "wind_direction_deg": 264,
-      "wind_gusts_mph": 4.0,
-      "wind_label": "onshore",
-      "rating": "poor",
-      "rating_score": 28
+      "wind_speed_mph": 0.9,
+      "wind_direction_deg": 14,
+      "wind_gusts_mph": 8.3,
+      "wind_label": "offshore",
+      "rating": "fair",
+      "rating_score": 43
     },
     {
       "time": "2026-04-18T06:00Z",
@@ -411,12 +411,12 @@
       "swell_height_ft": 1.4,
       "swell_period_s": 12.7,
       "swell_direction_deg": 189,
-      "wind_speed_mph": 0.8,
-      "wind_direction_deg": 124,
-      "wind_gusts_mph": 1.1,
-      "wind_label": "cross",
+      "wind_speed_mph": 2.1,
+      "wind_direction_deg": 139,
+      "wind_gusts_mph": 4.0,
+      "wind_label": "onshore",
       "rating": "poor",
-      "rating_score": 35
+      "rating_score": 27
     },
     {
       "time": "2026-04-18T07:00Z",
@@ -424,12 +424,12 @@
       "swell_height_ft": 1.4,
       "swell_period_s": 12.6,
       "swell_direction_deg": 189,
-      "wind_speed_mph": 3.5,
-      "wind_direction_deg": 117,
-      "wind_gusts_mph": 5.1,
-      "wind_label": "cross",
+      "wind_speed_mph": 6.3,
+      "wind_direction_deg": 180,
+      "wind_gusts_mph": 9.6,
+      "wind_label": "onshore",
       "rating": "poor",
-      "rating_score": 35
+      "rating_score": 27
     },
     {
       "time": "2026-04-18T08:00Z",
@@ -437,9 +437,9 @@
       "swell_height_ft": 1.4,
       "swell_period_s": 12.5,
       "swell_direction_deg": 189,
-      "wind_speed_mph": 2.9,
-      "wind_direction_deg": 148,
-      "wind_gusts_mph": 5.4,
+      "wind_speed_mph": 6.3,
+      "wind_direction_deg": 172,
+      "wind_gusts_mph": 11.0,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 26
@@ -450,12 +450,12 @@
       "swell_height_ft": 1.4,
       "swell_period_s": 12.5,
       "swell_direction_deg": 189,
-      "wind_speed_mph": 3.2,
-      "wind_direction_deg": 124,
-      "wind_gusts_mph": 5.4,
-      "wind_label": "cross",
+      "wind_speed_mph": 4.6,
+      "wind_direction_deg": 151,
+      "wind_gusts_mph": 8.3,
+      "wind_label": "onshore",
       "rating": "poor",
-      "rating_score": 34
+      "rating_score": 26
     },
     {
       "time": "2026-04-18T10:00Z",
@@ -463,12 +463,12 @@
       "swell_height_ft": 1.4,
       "swell_period_s": 12.4,
       "swell_direction_deg": 189,
-      "wind_speed_mph": 3.4,
-      "wind_direction_deg": 122,
-      "wind_gusts_mph": 6.5,
-      "wind_label": "cross",
-      "rating": "poor",
-      "rating_score": 34
+      "wind_speed_mph": 2.7,
+      "wind_direction_deg": 85,
+      "wind_gusts_mph": 4.9,
+      "wind_label": "offshore",
+      "rating": "fair",
+      "rating_score": 41
     },
     {
       "time": "2026-04-18T11:00Z",
@@ -476,12 +476,12 @@
       "swell_height_ft": 1.4,
       "swell_period_s": 12.4,
       "swell_direction_deg": 189,
-      "wind_speed_mph": 3.0,
-      "wind_direction_deg": 103,
-      "wind_gusts_mph": 5.8,
-      "wind_label": "cross",
-      "rating": "poor",
-      "rating_score": 34
+      "wind_speed_mph": 3.8,
+      "wind_direction_deg": 69,
+      "wind_gusts_mph": 4.0,
+      "wind_label": "offshore",
+      "rating": "fair",
+      "rating_score": 41
     },
     {
       "time": "2026-04-18T12:00Z",
@@ -489,9 +489,9 @@
       "swell_height_ft": 1.4,
       "swell_period_s": 12.4,
       "swell_direction_deg": 189,
-      "wind_speed_mph": 3.0,
-      "wind_direction_deg": 73,
-      "wind_gusts_mph": 4.3,
+      "wind_speed_mph": 4.7,
+      "wind_direction_deg": 55,
+      "wind_gusts_mph": 4.7,
       "wind_label": "offshore",
       "rating": "fair",
       "rating_score": 41
@@ -502,9 +502,9 @@
       "swell_height_ft": 1.4,
       "swell_period_s": 12.3,
       "swell_direction_deg": 189,
-      "wind_speed_mph": 3.5,
-      "wind_direction_deg": 72,
-      "wind_gusts_mph": 3.8,
+      "wind_speed_mph": 5.9,
+      "wind_direction_deg": 61,
+      "wind_gusts_mph": 5.8,
       "wind_label": "offshore",
       "rating": "fair",
       "rating_score": 41
@@ -515,9 +515,9 @@
       "swell_height_ft": 1.4,
       "swell_period_s": 12.3,
       "swell_direction_deg": 189,
-      "wind_speed_mph": 3.6,
-      "wind_direction_deg": 68,
-      "wind_gusts_mph": 3.8,
+      "wind_speed_mph": 5.0,
+      "wind_direction_deg": 72,
+      "wind_gusts_mph": 5.1,
       "wind_label": "offshore",
       "rating": "poor",
       "rating_score": 40
@@ -528,9 +528,9 @@
       "swell_height_ft": 1.4,
       "swell_period_s": 12.3,
       "swell_direction_deg": 189,
-      "wind_speed_mph": 2.2,
-      "wind_direction_deg": 53,
-      "wind_gusts_mph": 2.2,
+      "wind_speed_mph": 2.5,
+      "wind_direction_deg": 90,
+      "wind_gusts_mph": 2.7,
       "wind_label": "offshore",
       "rating": "poor",
       "rating_score": 40
@@ -541,9 +541,9 @@
       "swell_height_ft": 1.4,
       "swell_period_s": 12.4,
       "swell_direction_deg": 189,
-      "wind_speed_mph": 3.0,
-      "wind_direction_deg": 243,
-      "wind_gusts_mph": 2.9,
+      "wind_speed_mph": 3.3,
+      "wind_direction_deg": 208,
+      "wind_gusts_mph": 3.1,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 25
@@ -555,7 +555,7 @@
       "swell_period_s": 12.4,
       "swell_direction_deg": 189,
       "wind_speed_mph": 5.3,
-      "wind_direction_deg": 255,
+      "wind_direction_deg": 234,
       "wind_gusts_mph": 5.4,
       "wind_label": "onshore",
       "rating": "poor",
@@ -567,9 +567,9 @@
       "swell_height_ft": 1.3,
       "swell_period_s": 12.5,
       "swell_direction_deg": 189,
-      "wind_speed_mph": 7.4,
-      "wind_direction_deg": 267,
-      "wind_gusts_mph": 7.6,
+      "wind_speed_mph": 6.6,
+      "wind_direction_deg": 258,
+      "wind_gusts_mph": 6.7,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 25
@@ -580,9 +580,9 @@
       "swell_height_ft": 1.3,
       "swell_period_s": 12.5,
       "swell_direction_deg": 189,
-      "wind_speed_mph": 9.4,
+      "wind_speed_mph": 8.3,
       "wind_direction_deg": 267,
-      "wind_gusts_mph": 10.1,
+      "wind_gusts_mph": 8.9,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 25
@@ -593,9 +593,9 @@
       "swell_height_ft": 1.3,
       "swell_period_s": 12.4,
       "swell_direction_deg": 189,
-      "wind_speed_mph": 10.1,
-      "wind_direction_deg": 270,
-      "wind_gusts_mph": 11.2,
+      "wind_speed_mph": 10.0,
+      "wind_direction_deg": 280,
+      "wind_gusts_mph": 11.4,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 25
@@ -606,9 +606,9 @@
       "swell_height_ft": 1.3,
       "swell_period_s": 12.4,
       "swell_direction_deg": 189,
-      "wind_speed_mph": 8.7,
-      "wind_direction_deg": 273,
-      "wind_gusts_mph": 9.8,
+      "wind_speed_mph": 10.7,
+      "wind_direction_deg": 281,
+      "wind_gusts_mph": 12.3,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 25
@@ -619,9 +619,9 @@
       "swell_height_ft": 1.2,
       "swell_period_s": 12.3,
       "swell_direction_deg": 188,
-      "wind_speed_mph": 9.0,
-      "wind_direction_deg": 276,
-      "wind_gusts_mph": 9.4,
+      "wind_speed_mph": 10.1,
+      "wind_direction_deg": 283,
+      "wind_gusts_mph": 11.6,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 25
@@ -632,9 +632,9 @@
       "swell_height_ft": 1.2,
       "swell_period_s": 12.2,
       "swell_direction_deg": 186,
-      "wind_speed_mph": 11.4,
-      "wind_direction_deg": 272,
-      "wind_gusts_mph": 9.5,
+      "wind_speed_mph": 8.8,
+      "wind_direction_deg": 289,
+      "wind_gusts_mph": 11.2,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 25
@@ -645,9 +645,9 @@
       "swell_height_ft": 1.2,
       "swell_period_s": 12.2,
       "swell_direction_deg": 185,
-      "wind_speed_mph": 6.3,
-      "wind_direction_deg": 293,
-      "wind_gusts_mph": 7.8,
+      "wind_speed_mph": 9.4,
+      "wind_direction_deg": 292,
+      "wind_gusts_mph": 13.6,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 25
@@ -658,9 +658,9 @@
       "swell_height_ft": 1.2,
       "swell_period_s": 12.2,
       "swell_direction_deg": 185,
-      "wind_speed_mph": 4.9,
-      "wind_direction_deg": 267,
-      "wind_gusts_mph": 4.3,
+      "wind_speed_mph": 7.0,
+      "wind_direction_deg": 277,
+      "wind_gusts_mph": 14.1,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 25
@@ -671,9 +671,9 @@
       "swell_height_ft": 1.2,
       "swell_period_s": 12.1,
       "swell_direction_deg": 185,
-      "wind_speed_mph": 4.0,
-      "wind_direction_deg": 236,
-      "wind_gusts_mph": 4.7,
+      "wind_speed_mph": 4.3,
+      "wind_direction_deg": 235,
+      "wind_gusts_mph": 10.5,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 25
@@ -684,12 +684,12 @@
       "swell_height_ft": 1.2,
       "swell_period_s": 12.1,
       "swell_direction_deg": 185,
-      "wind_speed_mph": 3.0,
-      "wind_direction_deg": 117,
-      "wind_gusts_mph": 2.5,
-      "wind_label": "cross",
+      "wind_speed_mph": 4.7,
+      "wind_direction_deg": 180,
+      "wind_gusts_mph": 6.0,
+      "wind_label": "onshore",
       "rating": "poor",
-      "rating_score": 33
+      "rating_score": 25
     },
     {
       "time": "2026-04-19T04:00Z",
@@ -697,12 +697,12 @@
       "swell_height_ft": 1.2,
       "swell_period_s": 12.1,
       "swell_direction_deg": 187,
-      "wind_speed_mph": 3.8,
-      "wind_direction_deg": 135,
-      "wind_gusts_mph": 2.5,
-      "wind_label": "cross",
+      "wind_speed_mph": 4.9,
+      "wind_direction_deg": 154,
+      "wind_gusts_mph": 6.3,
+      "wind_label": "onshore",
       "rating": "poor",
-      "rating_score": 33
+      "rating_score": 25
     },
     {
       "time": "2026-04-19T05:00Z",
@@ -710,9 +710,9 @@
       "swell_height_ft": 1.3,
       "swell_period_s": 12.2,
       "swell_direction_deg": 188,
-      "wind_speed_mph": 3.1,
-      "wind_direction_deg": 180,
-      "wind_gusts_mph": 2.7,
+      "wind_speed_mph": 3.7,
+      "wind_direction_deg": 166,
+      "wind_gusts_mph": 4.3,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 24
@@ -723,9 +723,9 @@
       "swell_height_ft": 1.4,
       "swell_period_s": 12.2,
       "swell_direction_deg": 190,
-      "wind_speed_mph": 2.9,
-      "wind_direction_deg": 231,
-      "wind_gusts_mph": 1.6,
+      "wind_speed_mph": 3.1,
+      "wind_direction_deg": 207,
+      "wind_gusts_mph": 3.5,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 24
@@ -751,7 +751,7 @@
       "swell_direction_deg": 191,
       "wind_speed_mph": 3.0,
       "wind_direction_deg": 17,
-      "wind_gusts_mph": 1.1,
+      "wind_gusts_mph": 2.9,
       "wind_label": "offshore",
       "rating": "poor",
       "rating_score": 39
@@ -764,7 +764,7 @@
       "swell_direction_deg": 191,
       "wind_speed_mph": 2.1,
       "wind_direction_deg": 13,
-      "wind_gusts_mph": 2.0,
+      "wind_gusts_mph": 2.5,
       "wind_label": "offshore",
       "rating": "poor",
       "rating_score": 38
@@ -777,7 +777,7 @@
       "swell_direction_deg": 186,
       "wind_speed_mph": 2.2,
       "wind_direction_deg": 37,
-      "wind_gusts_mph": 2.0,
+      "wind_gusts_mph": 2.9,
       "wind_label": "offshore",
       "rating": "poor",
       "rating_score": 38
@@ -790,7 +790,7 @@
       "swell_direction_deg": 182,
       "wind_speed_mph": 0.5,
       "wind_direction_deg": 63,
-      "wind_gusts_mph": 2.0,
+      "wind_gusts_mph": 1.8,
       "wind_label": "offshore",
       "rating": "poor",
       "rating_score": 38
@@ -803,7 +803,7 @@
       "swell_direction_deg": 177,
       "wind_speed_mph": 2.8,
       "wind_direction_deg": 252,
-      "wind_gusts_mph": 1.6,
+      "wind_gusts_mph": 2.0,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 23
@@ -816,7 +816,7 @@
       "swell_direction_deg": 185,
       "wind_speed_mph": 1.9,
       "wind_direction_deg": 306,
-      "wind_gusts_mph": 1.3,
+      "wind_gusts_mph": 1.8,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 23
@@ -829,7 +829,7 @@
       "swell_direction_deg": 193,
       "wind_speed_mph": 1.6,
       "wind_direction_deg": 286,
-      "wind_gusts_mph": 2.0,
+      "wind_gusts_mph": 1.3,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 23
@@ -842,7 +842,7 @@
       "swell_direction_deg": 201,
       "wind_speed_mph": 2.2,
       "wind_direction_deg": 270,
-      "wind_gusts_mph": 1.3,
+      "wind_gusts_mph": 2.2,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 23
@@ -855,7 +855,7 @@
       "swell_direction_deg": 193,
       "wind_speed_mph": 3.3,
       "wind_direction_deg": 250,
-      "wind_gusts_mph": 1.8,
+      "wind_gusts_mph": 2.2,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 23
@@ -868,7 +868,7 @@
       "swell_direction_deg": 186,
       "wind_speed_mph": 3.3,
       "wind_direction_deg": 228,
-      "wind_gusts_mph": 3.8,
+      "wind_gusts_mph": 1.6,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 22
@@ -881,7 +881,7 @@
       "swell_direction_deg": 178,
       "wind_speed_mph": 6.0,
       "wind_direction_deg": 222,
-      "wind_gusts_mph": 3.6,
+      "wind_gusts_mph": 4.3,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 23
@@ -894,7 +894,7 @@
       "swell_direction_deg": 178,
       "wind_speed_mph": 7.9,
       "wind_direction_deg": 230,
-      "wind_gusts_mph": 4.9,
+      "wind_gusts_mph": 6.3,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 22
@@ -907,7 +907,7 @@
       "swell_direction_deg": 177,
       "wind_speed_mph": 8.8,
       "wind_direction_deg": 232,
-      "wind_gusts_mph": 6.7,
+      "wind_gusts_mph": 6.9,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 22
@@ -920,7 +920,7 @@
       "swell_direction_deg": 177,
       "wind_speed_mph": 9.7,
       "wind_direction_deg": 238,
-      "wind_gusts_mph": 6.9,
+      "wind_gusts_mph": 7.4,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 22
@@ -933,7 +933,7 @@
       "swell_direction_deg": 177,
       "wind_speed_mph": 9.2,
       "wind_direction_deg": 244,
-      "wind_gusts_mph": 7.2,
+      "wind_gusts_mph": 7.6,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 22
@@ -946,7 +946,7 @@
       "swell_direction_deg": 178,
       "wind_speed_mph": 8.8,
       "wind_direction_deg": 251,
-      "wind_gusts_mph": 6.5,
+      "wind_gusts_mph": 7.4,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 22
@@ -972,7 +972,7 @@
       "swell_direction_deg": 178,
       "wind_speed_mph": 5.8,
       "wind_direction_deg": 254,
-      "wind_gusts_mph": 5.8,
+      "wind_gusts_mph": 4.3,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 22
@@ -985,7 +985,7 @@
       "swell_direction_deg": 178,
       "wind_speed_mph": 4.2,
       "wind_direction_deg": 254,
-      "wind_gusts_mph": 4.9,
+      "wind_gusts_mph": 4.3,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 22
@@ -998,7 +998,7 @@
       "swell_direction_deg": 178,
       "wind_speed_mph": 3.1,
       "wind_direction_deg": 274,
-      "wind_gusts_mph": 2.9,
+      "wind_gusts_mph": 3.1,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 22
@@ -1011,7 +1011,7 @@
       "swell_direction_deg": 187,
       "wind_speed_mph": 1.4,
       "wind_direction_deg": 288,
-      "wind_gusts_mph": 0.9,
+      "wind_gusts_mph": 1.6,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 22
@@ -1037,7 +1037,7 @@
       "swell_direction_deg": 205,
       "wind_speed_mph": 2.4,
       "wind_direction_deg": 311,
-      "wind_gusts_mph": 0.9,
+      "wind_gusts_mph": 1.8,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 23
@@ -1050,7 +1050,7 @@
       "swell_direction_deg": 196,
       "wind_speed_mph": 2.2,
       "wind_direction_deg": 336,
-      "wind_gusts_mph": 0.9,
+      "wind_gusts_mph": 1.3,
       "wind_label": "cross",
       "rating": "poor",
       "rating_score": 31
@@ -1063,7 +1063,7 @@
       "swell_direction_deg": 188,
       "wind_speed_mph": 2.2,
       "wind_direction_deg": 37,
-      "wind_gusts_mph": 0.9,
+      "wind_gusts_mph": 1.6,
       "wind_label": "offshore",
       "rating": "poor",
       "rating_score": 38
@@ -1089,7 +1089,7 @@
       "swell_direction_deg": 183,
       "wind_speed_mph": 1.1,
       "wind_direction_deg": 53,
-      "wind_gusts_mph": 1.8,
+      "wind_gusts_mph": 0.9,
       "wind_label": "offshore",
       "rating": "poor",
       "rating_score": 38
@@ -1102,7 +1102,7 @@
       "swell_direction_deg": 186,
       "wind_speed_mph": 2.2,
       "wind_direction_deg": 53,
-      "wind_gusts_mph": 3.6,
+      "wind_gusts_mph": 2.0,
       "wind_label": "offshore",
       "rating": "poor",
       "rating_score": 38
@@ -1115,7 +1115,7 @@
       "swell_direction_deg": 190,
       "wind_speed_mph": 3.4,
       "wind_direction_deg": 37,
-      "wind_gusts_mph": 2.5,
+      "wind_gusts_mph": 3.4,
       "wind_label": "offshore",
       "rating": "poor",
       "rating_score": 38
@@ -1128,7 +1128,7 @@
       "swell_direction_deg": 187,
       "wind_speed_mph": 1.9,
       "wind_direction_deg": 54,
-      "wind_gusts_mph": 1.6,
+      "wind_gusts_mph": 2.5,
       "wind_label": "offshore",
       "rating": "poor",
       "rating_score": 38
@@ -1141,7 +1141,7 @@
       "swell_direction_deg": 185,
       "wind_speed_mph": 1.6,
       "wind_direction_deg": 278,
-      "wind_gusts_mph": 1.6,
+      "wind_gusts_mph": 1.1,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 23
@@ -1154,7 +1154,7 @@
       "swell_direction_deg": 182,
       "wind_speed_mph": 0.4,
       "wind_direction_deg": 360,
-      "wind_gusts_mph": 1.6,
+      "wind_gusts_mph": 0.7,
       "wind_label": "offshore",
       "rating": "poor",
       "rating_score": 38
@@ -1167,7 +1167,7 @@
       "swell_direction_deg": 184,
       "wind_speed_mph": 2.1,
       "wind_direction_deg": 193,
-      "wind_gusts_mph": 1.3,
+      "wind_gusts_mph": 1.6,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 23
@@ -1180,7 +1180,7 @@
       "swell_direction_deg": 187,
       "wind_speed_mph": 6.2,
       "wind_direction_deg": 229,
-      "wind_gusts_mph": 2.9,
+      "wind_gusts_mph": 2.0,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 22
@@ -1193,7 +1193,7 @@
       "swell_direction_deg": 189,
       "wind_speed_mph": 8.6,
       "wind_direction_deg": 245,
-      "wind_gusts_mph": 3.1,
+      "wind_gusts_mph": 4.0,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 22
@@ -1206,7 +1206,7 @@
       "swell_direction_deg": 189,
       "wind_speed_mph": 9.6,
       "wind_direction_deg": 249,
-      "wind_gusts_mph": 4.9,
+      "wind_gusts_mph": 5.1,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 22
@@ -1219,7 +1219,7 @@
       "swell_direction_deg": 189,
       "wind_speed_mph": 10.0,
       "wind_direction_deg": 253,
-      "wind_gusts_mph": 5.4,
+      "wind_gusts_mph": 5.8,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 22
@@ -1232,7 +1232,7 @@
       "swell_direction_deg": 189,
       "wind_speed_mph": 11.0,
       "wind_direction_deg": 253,
-      "wind_gusts_mph": 5.8,
+      "wind_gusts_mph": 6.5,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 23
@@ -1271,7 +1271,7 @@
       "swell_direction_deg": 189,
       "wind_speed_mph": 8.3,
       "wind_direction_deg": 270,
-      "wind_gusts_mph": 7.2,
+      "wind_gusts_mph": 6.5,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 24
@@ -1284,7 +1284,7 @@
       "swell_direction_deg": 189,
       "wind_speed_mph": 6.7,
       "wind_direction_deg": 268,
-      "wind_gusts_mph": 5.1,
+      "wind_gusts_mph": 5.8,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 24
@@ -1297,7 +1297,7 @@
       "swell_direction_deg": 188,
       "wind_speed_mph": 6.5,
       "wind_direction_deg": 266,
-      "wind_gusts_mph": 3.8,
+      "wind_gusts_mph": 6.3,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 24
@@ -1310,7 +1310,7 @@
       "swell_direction_deg": 188,
       "wind_speed_mph": 4.2,
       "wind_direction_deg": 286,
-      "wind_gusts_mph": 3.8,
+      "wind_gusts_mph": 4.0,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 25
@@ -1323,7 +1323,7 @@
       "swell_direction_deg": 188,
       "wind_speed_mph": 3.7,
       "wind_direction_deg": 327,
-      "wind_gusts_mph": 4.9,
+      "wind_gusts_mph": 2.7,
       "wind_label": "cross",
       "rating": "poor",
       "rating_score": 33
@@ -1336,7 +1336,7 @@
       "swell_direction_deg": 188,
       "wind_speed_mph": 2.7,
       "wind_direction_deg": 336,
-      "wind_gusts_mph": 2.7,
+      "wind_gusts_mph": 1.8,
       "wind_label": "cross",
       "rating": "poor",
       "rating_score": 33
@@ -1349,7 +1349,7 @@
       "swell_direction_deg": 188,
       "wind_speed_mph": 4.8,
       "wind_direction_deg": 283,
-      "wind_gusts_mph": 1.8,
+      "wind_gusts_mph": 4.0,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 25
@@ -1362,7 +1362,7 @@
       "swell_direction_deg": 188,
       "wind_speed_mph": 3.8,
       "wind_direction_deg": 298,
-      "wind_gusts_mph": 2.0,
+      "wind_gusts_mph": 3.1,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 25
@@ -1388,7 +1388,7 @@
       "swell_direction_deg": 187,
       "wind_speed_mph": 2.6,
       "wind_direction_deg": 345,
-      "wind_gusts_mph": 1.3,
+      "wind_gusts_mph": 1.6,
       "wind_label": "cross",
       "rating": "poor",
       "rating_score": 33
@@ -1401,7 +1401,7 @@
       "swell_direction_deg": 187,
       "wind_speed_mph": 2.2,
       "wind_direction_deg": 354,
-      "wind_gusts_mph": 2.0,
+      "wind_gusts_mph": 1.6,
       "wind_label": "cross",
       "rating": "poor",
       "rating_score": 33
@@ -1414,7 +1414,7 @@
       "swell_direction_deg": 187,
       "wind_speed_mph": 2.2,
       "wind_direction_deg": 336,
-      "wind_gusts_mph": 2.2,
+      "wind_gusts_mph": 1.6,
       "wind_label": "cross",
       "rating": "poor",
       "rating_score": 33
@@ -1427,7 +1427,7 @@
       "swell_direction_deg": 187,
       "wind_speed_mph": 2.6,
       "wind_direction_deg": 59,
-      "wind_gusts_mph": 2.9,
+      "wind_gusts_mph": 2.5,
       "wind_label": "offshore",
       "rating": "poor",
       "rating_score": 40
@@ -1440,7 +1440,7 @@
       "swell_direction_deg": 187,
       "wind_speed_mph": 1.5,
       "wind_direction_deg": 63,
-      "wind_gusts_mph": 2.0,
+      "wind_gusts_mph": 1.6,
       "wind_label": "offshore",
       "rating": "poor",
       "rating_score": 40
@@ -1479,7 +1479,7 @@
       "swell_direction_deg": 186,
       "wind_speed_mph": 1.4,
       "wind_direction_deg": 231,
-      "wind_gusts_mph": 3.8,
+      "wind_gusts_mph": 1.1,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 25
@@ -1492,7 +1492,7 @@
       "swell_direction_deg": 185,
       "wind_speed_mph": 4.8,
       "wind_direction_deg": 202,
-      "wind_gusts_mph": 4.9,
+      "wind_gusts_mph": 3.4,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 25
@@ -1505,7 +1505,7 @@
       "swell_direction_deg": 185,
       "wind_speed_mph": 7.6,
       "wind_direction_deg": 214,
-      "wind_gusts_mph": 6.0,
+      "wind_gusts_mph": 5.6,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 25
@@ -1518,7 +1518,7 @@
       "swell_direction_deg": 185,
       "wind_speed_mph": 8.4,
       "wind_direction_deg": 209,
-      "wind_gusts_mph": 7.8,
+      "wind_gusts_mph": 6.5,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 25
@@ -1531,7 +1531,7 @@
       "swell_direction_deg": 185,
       "wind_speed_mph": 11.7,
       "wind_direction_deg": 225,
-      "wind_gusts_mph": 9.6,
+      "wind_gusts_mph": 9.2,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 26
@@ -1544,7 +1544,7 @@
       "swell_direction_deg": 185,
       "wind_speed_mph": 11.6,
       "wind_direction_deg": 245,
-      "wind_gusts_mph": 11.2,
+      "wind_gusts_mph": 10.5,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 27
@@ -1557,7 +1557,7 @@
       "swell_direction_deg": 185,
       "wind_speed_mph": 10.0,
       "wind_direction_deg": 236,
-      "wind_gusts_mph": 12.3,
+      "wind_gusts_mph": 10.1,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 28
@@ -1570,7 +1570,7 @@
       "swell_direction_deg": 185,
       "wind_speed_mph": 10.1,
       "wind_direction_deg": 242,
-      "wind_gusts_mph": 13.0,
+      "wind_gusts_mph": 10.5,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 29
@@ -1583,7 +1583,7 @@
       "swell_direction_deg": 185,
       "wind_speed_mph": 9.2,
       "wind_direction_deg": 244,
-      "wind_gusts_mph": 12.8,
+      "wind_gusts_mph": 10.5,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 29
@@ -1596,7 +1596,7 @@
       "swell_direction_deg": 184,
       "wind_speed_mph": 7.0,
       "wind_direction_deg": 239,
-      "wind_gusts_mph": 11.0,
+      "wind_gusts_mph": 8.5,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 29
@@ -1609,7 +1609,7 @@
       "swell_direction_deg": 184,
       "wind_speed_mph": 4.8,
       "wind_direction_deg": 229,
-      "wind_gusts_mph": 8.5,
+      "wind_gusts_mph": 5.8,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 29
@@ -1622,7 +1622,7 @@
       "swell_direction_deg": 183,
       "wind_speed_mph": 3.6,
       "wind_direction_deg": 210,
-      "wind_gusts_mph": 7.2,
+      "wind_gusts_mph": 4.3,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 30
@@ -1635,7 +1635,7 @@
       "swell_direction_deg": 183,
       "wind_speed_mph": 4.3,
       "wind_direction_deg": 201,
-      "wind_gusts_mph": 8.1,
+      "wind_gusts_mph": 4.9,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 30
@@ -1648,7 +1648,7 @@
       "swell_direction_deg": 184,
       "wind_speed_mph": 5.6,
       "wind_direction_deg": 203,
-      "wind_gusts_mph": 10.3,
+      "wind_gusts_mph": 6.5,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 30
@@ -1661,7 +1661,7 @@
       "swell_direction_deg": 184,
       "wind_speed_mph": 6.0,
       "wind_direction_deg": 211,
-      "wind_gusts_mph": 11.2,
+      "wind_gusts_mph": 7.4,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 30
@@ -1674,7 +1674,7 @@
       "swell_direction_deg": 184,
       "wind_speed_mph": 4.7,
       "wind_direction_deg": 235,
-      "wind_gusts_mph": 9.8,
+      "wind_gusts_mph": 6.7,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 30
@@ -1687,7 +1687,7 @@
       "swell_direction_deg": 184,
       "wind_speed_mph": 4.8,
       "wind_direction_deg": 281,
-      "wind_gusts_mph": 7.6,
+      "wind_gusts_mph": 5.6,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 29
@@ -1700,7 +1700,7 @@
       "swell_direction_deg": 184,
       "wind_speed_mph": 6.1,
       "wind_direction_deg": 303,
-      "wind_gusts_mph": 5.8,
+      "wind_gusts_mph": 4.7,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 29
@@ -1713,7 +1713,7 @@
       "swell_direction_deg": 184,
       "wind_speed_mph": 6.7,
       "wind_direction_deg": 307,
-      "wind_gusts_mph": 5.1,
+      "wind_gusts_mph": 4.5,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 29
@@ -1726,7 +1726,7 @@
       "swell_direction_deg": 184,
       "wind_speed_mph": 6.3,
       "wind_direction_deg": 305,
-      "wind_gusts_mph": 4.9,
+      "wind_gusts_mph": 4.7,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 28
@@ -1739,7 +1739,7 @@
       "swell_direction_deg": 184,
       "wind_speed_mph": 5.7,
       "wind_direction_deg": 301,
-      "wind_gusts_mph": 4.9,
+      "wind_gusts_mph": 4.7,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 28
@@ -1752,7 +1752,7 @@
       "swell_direction_deg": 184,
       "wind_speed_mph": 5.1,
       "wind_direction_deg": 299,
-      "wind_gusts_mph": 4.7,
+      "wind_gusts_mph": 4.3,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 29
@@ -1765,7 +1765,7 @@
       "swell_direction_deg": 183,
       "wind_speed_mph": 4.2,
       "wind_direction_deg": 295,
-      "wind_gusts_mph": 4.5,
+      "wind_gusts_mph": 3.8,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 30
@@ -1778,7 +1778,7 @@
       "swell_direction_deg": 183,
       "wind_speed_mph": 4.1,
       "wind_direction_deg": 283,
-      "wind_gusts_mph": 4.7,
+      "wind_gusts_mph": 4.0,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 30
@@ -1791,7 +1791,7 @@
       "swell_direction_deg": 210,
       "wind_speed_mph": 5.4,
       "wind_direction_deg": 261,
-      "wind_gusts_mph": 5.4,
+      "wind_gusts_mph": 5.6,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 29
@@ -1804,7 +1804,7 @@
       "swell_direction_deg": 238,
       "wind_speed_mph": 7.9,
       "wind_direction_deg": 248,
-      "wind_gusts_mph": 6.3,
+      "wind_gusts_mph": 7.8,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 26
@@ -1817,7 +1817,7 @@
       "swell_direction_deg": 265,
       "wind_speed_mph": 10.4,
       "wind_direction_deg": 245,
-      "wind_gusts_mph": 7.2,
+      "wind_gusts_mph": 10.1,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 36
@@ -1830,7 +1830,7 @@
       "swell_direction_deg": 265,
       "wind_speed_mph": 12.1,
       "wind_direction_deg": 247,
-      "wind_gusts_mph": 8.3,
+      "wind_gusts_mph": 12.1,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 35
@@ -1843,7 +1843,7 @@
       "swell_direction_deg": 264,
       "wind_speed_mph": 13.9,
       "wind_direction_deg": 251,
-      "wind_gusts_mph": 9.6,
+      "wind_gusts_mph": 14.1,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 35
@@ -1856,7 +1856,7 @@
       "swell_direction_deg": 264,
       "wind_speed_mph": 15.1,
       "wind_direction_deg": 255,
-      "wind_gusts_mph": 10.7,
+      "wind_gusts_mph": 15.7,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 35
@@ -1869,7 +1869,7 @@
       "swell_direction_deg": 264,
       "wind_speed_mph": 15.8,
       "wind_direction_deg": 257,
-      "wind_gusts_mph": 11.9,
+      "wind_gusts_mph": 16.6,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 35
@@ -1882,7 +1882,7 @@
       "swell_direction_deg": 264,
       "wind_speed_mph": 15.9,
       "wind_direction_deg": 259,
-      "wind_gusts_mph": 13.2,
+      "wind_gusts_mph": 17.0,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 37
@@ -1895,7 +1895,7 @@
       "swell_direction_deg": 264,
       "wind_speed_mph": 15.6,
       "wind_direction_deg": 262,
-      "wind_gusts_mph": 13.6,
+      "wind_gusts_mph": 16.6,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 36
@@ -1908,7 +1908,7 @@
       "swell_direction_deg": 265,
       "wind_speed_mph": 14.0,
       "wind_direction_deg": 264,
-      "wind_gusts_mph": 13.2,
+      "wind_gusts_mph": 14.8,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 37
@@ -1947,7 +1947,7 @@
       "swell_direction_deg": 269,
       "wind_speed_mph": 10.5,
       "wind_direction_deg": 272,
-      "wind_gusts_mph": 10.3,
+      "wind_gusts_mph": 12.3,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 40
@@ -1960,7 +1960,7 @@
       "swell_direction_deg": 270,
       "wind_speed_mph": 11.7,
       "wind_direction_deg": 277,
-      "wind_gusts_mph": 9.4,
+      "wind_gusts_mph": 14.3,
       "wind_label": "onshore",
       "rating": "fair",
       "rating_score": 41
@@ -1973,7 +1973,7 @@
       "swell_direction_deg": 271,
       "wind_speed_mph": 13.4,
       "wind_direction_deg": 280,
-      "wind_gusts_mph": 8.3,
+      "wind_gusts_mph": 16.6,
       "wind_label": "onshore",
       "rating": "fair",
       "rating_score": 42
@@ -1986,7 +1986,7 @@
       "swell_direction_deg": 272,
       "wind_speed_mph": 15.6,
       "wind_direction_deg": 282,
-      "wind_gusts_mph": 6.7,
+      "wind_gusts_mph": 18.8,
       "wind_label": "onshore",
       "rating": "fair",
       "rating_score": 43
@@ -1999,7 +1999,7 @@
       "swell_direction_deg": 272,
       "wind_speed_mph": 18.2,
       "wind_direction_deg": 284,
-      "wind_gusts_mph": 5.1,
+      "wind_gusts_mph": 21.0,
       "wind_label": "onshore",
       "rating": "fair",
       "rating_score": 43
@@ -2012,7 +2012,7 @@
       "swell_direction_deg": 273,
       "wind_speed_mph": 19.1,
       "wind_direction_deg": 286,
-      "wind_gusts_mph": 3.8,
+      "wind_gusts_mph": 21.3,
       "wind_label": "onshore",
       "rating": "fair",
       "rating_score": 42
@@ -2025,7 +2025,7 @@
       "swell_direction_deg": 273,
       "wind_speed_mph": 16.7,
       "wind_direction_deg": 288,
-      "wind_gusts_mph": 3.1,
+      "wind_gusts_mph": 17.9,
       "wind_label": "onshore",
       "rating": "fair",
       "rating_score": 43
@@ -2038,7 +2038,7 @@
       "swell_direction_deg": 272,
       "wind_speed_mph": 12.8,
       "wind_direction_deg": 292,
-      "wind_gusts_mph": 2.9,
+      "wind_gusts_mph": 12.5,
       "wind_label": "onshore",
       "rating": "fair",
       "rating_score": 43
@@ -2051,7 +2051,7 @@
       "swell_direction_deg": 272,
       "wind_speed_mph": 9.4,
       "wind_direction_deg": 295,
-      "wind_gusts_mph": 2.9,
+      "wind_gusts_mph": 8.1,
       "wind_label": "onshore",
       "rating": "fair",
       "rating_score": 42
@@ -2064,7 +2064,7 @@
       "swell_direction_deg": 272,
       "wind_speed_mph": 7.4,
       "wind_direction_deg": 295,
-      "wind_gusts_mph": 3.6,
+      "wind_gusts_mph": 5.8,
       "wind_label": "onshore",
       "rating": "fair",
       "rating_score": 42
@@ -2077,7 +2077,7 @@
       "swell_direction_deg": 273,
       "wind_speed_mph": 5.9,
       "wind_direction_deg": 290,
-      "wind_gusts_mph": 4.5,
+      "wind_gusts_mph": 4.7,
       "wind_label": "onshore",
       "rating": "fair",
       "rating_score": 41
@@ -2090,7 +2090,7 @@
       "swell_direction_deg": 273,
       "wind_speed_mph": 4.7,
       "wind_direction_deg": 275,
-      "wind_gusts_mph": 5.4,
+      "wind_gusts_mph": 4.0,
       "wind_label": "onshore",
       "rating": "fair",
       "rating_score": 41
@@ -2103,7 +2103,7 @@
       "swell_direction_deg": 273,
       "wind_speed_mph": 4.2,
       "wind_direction_deg": 238,
-      "wind_gusts_mph": 5.6,
+      "wind_gusts_mph": 4.0,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 40
@@ -2116,7 +2116,7 @@
       "swell_direction_deg": 272,
       "wind_speed_mph": 6.3,
       "wind_direction_deg": 207,
-      "wind_gusts_mph": 5.4,
+      "wind_gusts_mph": 4.7,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 39
@@ -2129,7 +2129,7 @@
       "swell_direction_deg": 272,
       "wind_speed_mph": 8.7,
       "wind_direction_deg": 198,
-      "wind_gusts_mph": 5.8,
+      "wind_gusts_mph": 5.6,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 38
@@ -2142,7 +2142,7 @@
       "swell_direction_deg": 242,
       "wind_speed_mph": 10.3,
       "wind_direction_deg": 200,
-      "wind_gusts_mph": 6.9,
+      "wind_gusts_mph": 6.7,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 24
@@ -2155,7 +2155,7 @@
       "swell_direction_deg": 213,
       "wind_speed_mph": 11.6,
       "wind_direction_deg": 208,
-      "wind_gusts_mph": 8.5,
+      "wind_gusts_mph": 7.8,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 25
@@ -2168,7 +2168,7 @@
       "swell_direction_deg": 183,
       "wind_speed_mph": 11.9,
       "wind_direction_deg": 212,
-      "wind_gusts_mph": 10.3,
+      "wind_gusts_mph": 8.3,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 26
@@ -2181,7 +2181,7 @@
       "swell_direction_deg": 183,
       "wind_speed_mph": 10.8,
       "wind_direction_deg": 214,
-      "wind_gusts_mph": 12.5,
+      "wind_gusts_mph": 7.6,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 27
@@ -2194,7 +2194,7 @@
       "swell_direction_deg": 183,
       "wind_speed_mph": 8.8,
       "wind_direction_deg": 218,
-      "wind_gusts_mph": 14.8,
+      "wind_gusts_mph": 6.3,
       "wind_label": "onshore",
       "rating": "poor",
       "rating_score": 27
