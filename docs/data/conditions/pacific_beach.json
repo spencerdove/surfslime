@@ -1,18 +1,18 @@
 {
   "spot_id": "pacific_beach",
-  "updated_at": "2026-05-03T09:21:35.944792+00:00",
+  "updated_at": "2026-05-03T10:53:40.092278+00:00",
   "rating": "fair",
-  "rating_score": 52,
+  "rating_score": 49,
   "current": {
-    "wave_height_ft": 3.8,
-    "swell_height_ft": 3.8,
+    "wave_height_ft": 3.3,
+    "swell_height_ft": 3.3,
     "swell_period_s": 12.5,
-    "swell_direction_deg": 306,
+    "swell_direction_deg": 307,
     "wind_speed_mph": null,
     "wind_direction_deg": null,
     "wind_label": null
   },
   "buoy_id": "cdip-071",
-  "buoy_timestamp": "2026-05-03T08:30:00Z",
+  "buoy_timestamp": "2026-05-03T10:00:00Z",
   "forecast": []
 }
