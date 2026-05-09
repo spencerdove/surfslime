@@ -1,6 +1,6 @@
 {
   "spot_id": "ocean_beach",
-  "updated_at": "2026-05-09T16:52:29.643653+00:00",
+  "updated_at": "2026-05-09T18:57:22.132313+00:00",
   "rating": "fair",
   "rating_score": 42,
   "current": {
@@ -13,6 +13,6 @@
     "wind_label": null
   },
   "buoy_id": "cdip-201",
-  "buoy_timestamp": "2026-05-09T16:00:00Z",
+  "buoy_timestamp": "2026-05-09T18:00:00Z",
   "forecast": []
 }
