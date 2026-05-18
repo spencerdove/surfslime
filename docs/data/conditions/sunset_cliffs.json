@@ -1,18 +1,18 @@
 {
   "spot_id": "sunset_cliffs",
-  "updated_at": "2026-05-18T17:59:06.686270+00:00",
+  "updated_at": "2026-05-18T19:50:24.939355+00:00",
   "rating": "fair",
   "rating_score": 52,
   "current": {
-    "wave_height_ft": 3.0,
-    "swell_height_ft": 3.0,
+    "wave_height_ft": 2.9,
+    "swell_height_ft": 2.9,
     "swell_period_s": 12.5,
-    "swell_direction_deg": 292,
+    "swell_direction_deg": 291,
     "wind_speed_mph": null,
     "wind_direction_deg": null,
     "wind_label": null
   },
   "buoy_id": "cdip-201",
-  "buoy_timestamp": "2026-05-18T17:00:00Z",
+  "buoy_timestamp": "2026-05-18T19:00:00Z",
   "forecast": []
 }
