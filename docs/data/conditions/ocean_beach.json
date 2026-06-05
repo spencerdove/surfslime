@@ -1,18 +1,18 @@
 {
   "spot_id": "ocean_beach",
-  "updated_at": "2026-06-05T12:34:33.909175+00:00",
+  "updated_at": "2026-06-05T16:28:44.011688+00:00",
   "rating": "fair",
-  "rating_score": 46,
+  "rating_score": 44,
   "current": {
-    "wave_height_ft": 2.2,
-    "swell_height_ft": 2.2,
-    "swell_period_s": 9.1,
-    "swell_direction_deg": 287,
+    "wave_height_ft": 2.4,
+    "swell_height_ft": 2.4,
+    "swell_period_s": 10.5,
+    "swell_direction_deg": 298,
     "wind_speed_mph": null,
     "wind_direction_deg": null,
     "wind_label": null
   },
   "buoy_id": "cdip-201",
-  "buoy_timestamp": "2026-06-05T11:30:00Z",
+  "buoy_timestamp": "2026-06-05T15:30:00Z",
   "forecast": []
 }
