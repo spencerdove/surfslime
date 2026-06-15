@@ -1,18 +1,18 @@
 {
   "spot_id": "blacks",
-  "updated_at": "2026-06-15T20:52:09.917219+00:00",
-  "rating": "flat",
-  "rating_score": 0,
+  "updated_at": "2026-06-15T23:43:31.004616+00:00",
+  "rating": "poor",
+  "rating_score": 31,
   "current": {
-    "wave_height_ft": null,
-    "swell_height_ft": null,
-    "swell_period_s": null,
-    "swell_direction_deg": null,
+    "wave_height_ft": 2.9,
+    "swell_height_ft": 2.9,
+    "swell_period_s": 14.3,
+    "swell_direction_deg": 193,
     "wind_speed_mph": null,
     "wind_direction_deg": null,
     "wind_label": null
   },
   "buoy_id": "cdip-071",
-  "buoy_timestamp": null,
+  "buoy_timestamp": "2026-06-15T23:00:00Z",
   "forecast": []
 }
