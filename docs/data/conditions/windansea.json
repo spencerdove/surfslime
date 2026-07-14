@@ -1,6 +1,6 @@
 {
   "spot_id": "windansea",
-  "updated_at": "2026-07-14T20:57:20.362853+00:00",
+  "updated_at": "2026-07-14T22:55:05.198997+00:00",
   "rating": "fair",
   "rating_score": 45,
   "current": {
@@ -13,6 +13,6 @@
     "wind_label": null
   },
   "buoy_id": "cdip-071",
-  "buoy_timestamp": "2026-07-14T20:00:00Z",
+  "buoy_timestamp": "2026-07-14T22:00:00Z",
   "forecast": []
 }
