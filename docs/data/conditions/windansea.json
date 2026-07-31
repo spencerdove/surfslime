@@ -1,18 +1,18 @@
 {
   "spot_id": "windansea",
-  "updated_at": "2026-07-31T02:30:13.896557+00:00",
-  "rating": "fair",
-  "rating_score": 49,
+  "updated_at": "2026-07-31T06:41:04.244853+00:00",
+  "rating": "flat",
+  "rating_score": 0,
   "current": {
-    "wave_height_ft": 5.7,
-    "swell_height_ft": 5.7,
-    "swell_period_s": 15.4,
-    "swell_direction_deg": 207,
+    "wave_height_ft": null,
+    "swell_height_ft": null,
+    "swell_period_s": null,
+    "swell_direction_deg": null,
     "wind_speed_mph": null,
     "wind_direction_deg": null,
     "wind_label": null
   },
   "buoy_id": "cdip-071",
-  "buoy_timestamp": "2026-07-31T01:30:00Z",
+  "buoy_timestamp": null,
   "forecast": []
 }
