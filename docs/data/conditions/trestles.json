@@ -1,19 +1,19 @@
 {
   "spot_id": "trestles",
-  "updated_at": "2026-08-17T14:22:50.397753+00:00",
+  "updated_at": "2026-08-17T16:21:53.390065+00:00",
   "rating": "poor",
-  "rating_score": 30,
+  "rating_score": 35,
   "current": {
-    "wave_height_ft": 2.3,
-    "swell_height_ft": 2.1,
-    "swell_period_s": 11.9,
-    "swell_direction_deg": 198,
+    "wave_height_ft": 2.5,
+    "swell_height_ft": 2.5,
+    "swell_period_s": 14.3,
+    "swell_direction_deg": 195,
     "wind_speed_mph": 11.3,
     "wind_direction_deg": 297,
     "wind_label": "onshore"
   },
   "buoy_id": "cdip-045",
-  "buoy_timestamp": null,
+  "buoy_timestamp": "2026-08-17T15:30:00Z",
   "forecast": [
     {
       "time": "2026-08-17T00:00Z",
