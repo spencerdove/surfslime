@@ -1,6 +1,6 @@
 {
   "spot_id": "pacific_beach",
-  "updated_at": "2026-08-19T10:24:42.350136+00:00",
+  "updated_at": "2026-08-19T12:39:06.666857+00:00",
   "rating": "fair",
   "rating_score": 49,
   "current": {
@@ -13,6 +13,6 @@
     "wind_label": null
   },
   "buoy_id": "cdip-071",
-  "buoy_timestamp": "2026-08-19T09:30:00Z",
+  "buoy_timestamp": "2026-08-19T12:00:00Z",
   "forecast": []
 }
