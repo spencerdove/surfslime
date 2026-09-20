@@ -1,18 +1,18 @@
 {
   "spot_id": "cardiff_reef",
-  "updated_at": "2026-09-20T20:18:16.906698+00:00",
+  "updated_at": "2026-09-20T23:50:49.237147+00:00",
   "rating": "poor",
-  "rating_score": 31,
+  "rating_score": 34,
   "current": {
-    "wave_height_ft": 1.7,
-    "swell_height_ft": 1.7,
-    "swell_period_s": 16.7,
-    "swell_direction_deg": 208,
+    "wave_height_ft": 1.8,
+    "swell_height_ft": 1.8,
+    "swell_period_s": 18.2,
+    "swell_direction_deg": 214,
     "wind_speed_mph": null,
     "wind_direction_deg": null,
     "wind_label": null
   },
   "buoy_id": "cdip-045",
-  "buoy_timestamp": "2026-09-20T19:30:00Z",
+  "buoy_timestamp": "2026-09-20T23:00:00Z",
   "forecast": []
 }
